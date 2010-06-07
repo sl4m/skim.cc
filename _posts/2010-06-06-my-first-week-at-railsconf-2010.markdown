@@ -9,6 +9,6 @@ categories:
   -- rails
 ---
 
-Tomorrow is my first day as a software apprentice at [8th Light](http://8thlight.com/), but I will not be in the office.  Instead, I will be attending this year's [RailsConf](http://www.railsconf.com/) in Baltimore, Maryland.  My mentor, Micah, told me I have to write a min-max algorithm for my tic-tac-toe [program](http://skim.la/2010/03/15/tic-tac-toe-in-ruby-and-javascript) so I'll be working on it through out the week.
+Tomorrow is my first day as a software apprentice at [8th Light](http://8thlight.com/), but I will not be in the office.  Instead, I will be attending this year's [RailsConf](http://www.railsconf.com/) in Baltimore, Maryland.  My mentor, Micah, told me I have to write a [minmax](http://en.wikipedia.org/wiki/Minimax) algorithm for my tic-tac-toe [program](http://skim.la/2010/03/15/tic-tac-toe-in-ruby-and-javascript) so I'll be working on it through out the week.
 
 I will post an update later this week.
