@@ -1,0 +1,18 @@
+---
+layout: post
+title: day 2 - railsconf 2010
+date: 2010-06-09 09:00:00 -05:00
+categories:
+  -- software craftsmanship
+  -- conference
+  -- ruby
+  -- rails
+---
+
+Today was the official start of RailsConf 2010.  David Heinenmeier Hansson and Michael Feathers presented their keynotes on Rails 3 and Clean Code.  While I enjoyed the keynotes and other talks, the things I took away from today were the code retreat sessions from BohConf and Yehuda Katz's talk on "finding something impossible and doing it."
+
+The code retreat sessions were based on Corey Haines' code retreat.  I paired up with a couple of developers in two different sessions, and using TDD, attempted to create a program that simulated [Conway's Game of Life](http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).  It was interesting to see the approach we took in the first session, then in the second session.  At the end of every session, we were told to discard the code and start over in the next session.  There was something about detaching yourself from the code you write and trying to tackle the problem again in a clean slate.  What I've noticed is that we were able to get farther ahead than the previous session.  With each session, you learn something new, whether it'd be from mistakes or tackling the problem at a different angle.  I think this is a great way to practice problem solving and learn how to think about the problem in smaller chunks rather than modeling the entire problem in your head.  I look forward to using this technique in the near future.
+
+Yehuda Katz's talk was about doing the impossible and making a difference.  His definition of being in the in-crowd group is to work hard.  It's not about having an MIT degree, having interesting blogs, or having 400+ Twitter followers.  Contributing to open source projects can make a huge impact to the community.  It's as simple as working on the docs, eliminating warnings, or challenging tasks like multiple platform support for Nokogiri.  One person can make a difference.
+
+I sat down briefly with Jim to work on the MinMax algorithm.  A great suggestion he gave was to refactor my current Tic Tac Toe code by extracting the board logic into a class.  He referred to a refactoring technique called the [Extract Class](http://en.wikipedia.org/wiki/Extract_class) from Martin Fowler's [Refactoring](http://www.amazon.com/Refactoring-Improving-Design-Existing-Technology/dp/0201485672) book.  I wrote my first RSpec test and plan to work on finishing the board logic tomorrow.  I shoud hopefully get a better understanding on how to start the MinMax algorithm with a board that has behavior as oppose to a board which is currently just a primitive type.
