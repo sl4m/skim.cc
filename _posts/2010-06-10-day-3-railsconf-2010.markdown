@@ -1,0 +1,14 @@
+---
+layout: post
+title: day 3 - railsconf 2010
+date: 2010-06-10 09:00:00 -05:00
+categories:
+  -- software craftsmanship
+  -- conference
+  -- ruby
+  -- rails
+---
+
+Today I worked on extracting the board related methods to a separate Board class as shown [here](http://skim.la/2010/06/09/tic-toe-toe-in-ruby-refactoring-part-1).  After I posted the blog, Micah told me I should separate the Board class from the TicTacToe class, so I ended up extracting it and putting it in a separate file with a separate RSpec test file.  Tomorrow, I plan to work on extracting the game related methods into a Game class and create a Player class for human and computer players.
+
+I mostly stayed at BohConf to work on my Tic Tac Toe program, so I did not learn much from the RailsConf sessions other than bits of pieces of RVM and Cucumber.  I look forward to Uncle Bob's keynote tomorrow morning.
