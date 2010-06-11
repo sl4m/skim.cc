@@ -13,6 +13,8 @@ Today was the last day of RailsConf.  Uncle Bob Martin's talk was entertaining a
 
 I worked on extracting game related methods into a Game class and created a Player class for human and computer players.  Micah created a UML diagram of what I wanted to do with my program.  I'm no UML expert, so I'll need to read up more on UML diagrams.  I'm glad I took [Marlena's](http://twitter.com/marlenac/) UML books when she decided to give them away.
 
+![TicTacToe UML](/images/uml.jpg)
+
 I'm getting more comfortable with RSpec.  Micah showed me how to use mocks in my tests.  Mocks are very cool.  They allow you to 'mock' objects without actually instantiating them.  A good example in my tests is mocking methods that do not exist in a class.  I was writing a test in a class that depended on another class.  If I didn't mock the object of the other class, I would have had to write the methods for that class to be able to use them in the test.  However, by mocking the object, I can focus on the first class and worry about defining the methods in the other class later.
 
 Overall, I enjoyed my first RailsConf experience.  I met a lot of people I follow on Twitter and met new people during the week.  This opportunity alone was worth coming to the conference.  What other people said about the community is true.  The Ruby community is strong and I can say it's one of the reasons why I love the language.
