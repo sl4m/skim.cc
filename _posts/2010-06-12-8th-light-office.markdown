@@ -33,7 +33,7 @@ class HumanPlayer < Player
 end
 {% endhighlight %}
 
-Here is the RSpec tests for HumanPlayer
+Here are the RSpec tests for HumanPlayer.
 
 {% highlight ruby %}
 # human_player_spec.rb
