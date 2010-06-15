@@ -1,6 +1,6 @@
 ---
 layout: post
-title: day two at the 8th light office
+title: day 2 at the 8th light office
 date: 2010-06-15 10:30:00 -05:00
 categories:
   -- software craftsmanship
