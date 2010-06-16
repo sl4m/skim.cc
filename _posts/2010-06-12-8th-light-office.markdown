@@ -13,10 +13,7 @@ Micah gave a great tip on how to mock stdin/stdout.  Ruby has global variables $
 
 This is what HumanPlayer class looks like so far.
 
-{% highlight ruby %}
-require 'player'
-
-class HumanPlayer < Player
+{% highlight ruby %} require 'player' class HumanPlayer < Player
   attr_reader :type, :input, :output
 
   def initialize(piece, input, output)
