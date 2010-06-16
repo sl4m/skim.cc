@@ -1,6 +1,6 @@
 ---
 layout: post
-title: first day at the 8th light office
+title: day 1 at the 8th light office
 date: 2010-06-12 16:30:00 -05:00
 categories:
   -- software craftsmanship
