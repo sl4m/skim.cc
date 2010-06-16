@@ -7,7 +7,7 @@ categories:
   -- ruby
 ---
 
-Going forward with this post, I will write about the day's apprenticeship experience when I get home from the 8th Light office.
+*Note:* Going forward with this post, I will write about the day's apprenticeship experience when I get home from the 8th Light office.
 
 I sat down with Micah today to go over my Tic Tac Toe [program](http://github.com/sl4m/tic_tac_toe_ruby).  He thoroughly gave me advice on how to improve the code, pointing out things I never thought about, and I was able to ask questions about certain things that completely stumped me.  One of the questions was about allowing write access to an instance variable to make it more testable.  Is this ok?  I wanted to prevent 'other people' from accessing it.  Micah came back with a yes and that you should trust your fellow developers.  I never thought about it that way, but it made perfect sense.
 
