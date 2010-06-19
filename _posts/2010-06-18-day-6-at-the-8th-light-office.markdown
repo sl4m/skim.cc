@@ -9,6 +9,7 @@ categories:
 
 With the help of Micah and Li-Hsuan, I finished the minmax algorithm today.  I still can't believe I finished it, so I'm going to look over the code again this weekend.  The problem to my existing code was the fact that I did not focus on the importance of depth and how it played a crucial role in returning the best move.  If you ever decide to work on this problem, I highly suggest you follow the Negamax version of the minmax algorithm on [Wikipedia](http://en.wikipedia.org/wiki/Minimax):
 
+{% highlight text %}
 function integer minimax(node, depth)
     if node is a terminal node or depth == 0:
         return the heuristic value of node
@@ -16,6 +17,7 @@ function integer minimax(node, depth)
     for child in node:                       # evaluation is identical for both players 
         α = max(α, -minimax(child, depth-1))
     return α
+{% endhighlight %}
 
 This pseudocode was enough to develop the method that will return the best move.  I will post the code later tonight on my GitHub [repo](http://github.com/sl4m/tic_tac_toe_ruby).
 
