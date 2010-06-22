@@ -49,6 +49,6 @@ Every production contains at least one scene that contains props.rb and styles.r
 
 I went through a brief tutorial in the Limelight Docs and found myself building a quick calculator.  However, out of that process, I began spiking code to get a better understanding of productions, scenes, props, styles, players, and to get a visual look of what I wanted for the Tic Tac Toe board.  I've done similar UI style coding in the past using a deprecated UI library for a deprecated Windows-only interpreter.  Anyone heard of [KiXtart](http://www.kixtart.org/) and [KiXforms](http://www.kixforms.org/)?  Yeah I bet not.  While the KiXtart language itself was not elegant or expressive like Ruby and KiXforms was not an MVC framework, it did give experience on how to define "props", "styles", and "players" via code.
 
-Tomorrow, and until Friday of this week, I plan to work on the UI portion of the program and somehow wire it all together.  Micah wants me to practice my project estimations.  I told him I would have it completed by Friday after a quick evaluation of what kind of work is required.  I just hope I can meet that deadline.
+Tomorrow, and until Friday of this week, I plan to work on the UI portion of the program and somehow wire it all together.  Micah wants me to practice my project estimations.  I told him I would have it completed by Friday after a quick evaluation of what kind of work is required.  I just hope I can meet the deadline.
 
 
