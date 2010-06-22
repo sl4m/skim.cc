@@ -43,6 +43,7 @@ You may immediately notice how similar it looks to a newly generated Rails app. 
 + production.rb - For configuring the Production.
 + stages.rb - Defines and configures the Stages in the Production.
 + styles.rb - Production Styles go here, shared across all scenes.
+{% endhighlight %}
 
 Every production contains at least one scene that contains props.rb and styles.rb.  One piece of information the description above does not say is that the players can also be placed on the production level.  Partials are also supported for Props (views) for some DRY action.
 
