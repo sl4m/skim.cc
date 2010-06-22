@@ -14,7 +14,7 @@ The project you thought would end, continues this week with a new challenge.  I 
 
 * Getting Started *
 
-I installed JRuby using [RVM](http://rvm.beginrescueend.com/) and proceeded to install the limelight gem.  To create a new Limelight production you execute the following command (note: my production name is limelight_test) :
+I installed JRuby using [RVM](http://rvm.beginrescueend.com/) and proceeded to install the limelight gem.  I then created my very first Limelight production using the following command (note: my production name is limelight_test) :
 
 {% highlight text %}
 [~/local/limelight] limelight create production limelight_test
@@ -32,7 +32,7 @@ I installed JRuby using [RVM](http://rvm.beginrescueend.com/) and proceeded to i
 	creating file:       ./limelight_test/spec/default_scene/default_scene_spec.rb
 {% endhighlight %}
 
-You may immediately notice how similar it looks to a newly generated Rails app.  The file structure, however, is different.  Here's a brief description:
+You may immediately notice how similar it looks to a newly generated Rails app.  The file structure, however, is different, taking on the theatre metaphor.  Here's a brief description:
 
 {% highlight text %}
 + default_scene - Each scene is in its own folder.
@@ -44,6 +44,10 @@ You may immediately notice how similar it looks to a newly generated Rails app. 
 + stages.rb - Defines and configures the Stages in the Production.
 + styles.rb - Production Styles go here, shared across all scenes.
 
-Using the theatre metaphors, every production contains at least one scene that contains props.rb and styles.rb.  One piece of information the description above does not say is that the players can also be placed in the production level.  Partials are also supported for Props (views) for some DRY action.
+Every production contains at least one scene that contains props.rb and styles.rb.  One piece of information the description above does not say is that the players can also be placed on the production level.  Partials are also supported for Props (views) for some DRY action.
+
+I went through a brief tutorial in the Limelight Docs and found myself building a quick calculator.  However, out of that process, I began spiking code to get a better understanding of productions, scenes, props, styles, players, and to get a visual look of what I wanted for the Tic Tac Toe board.  I've done similar UI style coding in the past using a deprecated UI library for a deprecated Windows-only interpreter.  Anyone heard of [KiXtart](http://www.kixtart.org/) and [KiXforms](http://www.kixforms.org/)?  Yeah I bet not.  While the KiXtart language itself was not elegant or expressive like Ruby and KiXforms was not an MVC framework, it did give experience on how to define "props", "styles", and "players" via code.
+
+Tomorrow, and until Friday of this week, I plan to work on the UI portion of the program and somehow wire it all together.  Micah wants me to practice my project estimations.  I told him I would have it completed by Friday after a quick evaluation of what kind of work is required.  I just hope I can meet that deadline.
 
 
