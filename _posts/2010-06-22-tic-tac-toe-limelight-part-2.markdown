@@ -1,7 +1,7 @@
 ---
 layout: post
 title: tic tac toe on limelight - part 2
-date: 2010-06-21 22:30:00 -05:00
+date: 2010-06-22 22:30:00 -05:00
 categories:
   -- software craftsmanship
   -- ruby
