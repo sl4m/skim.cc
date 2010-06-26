@@ -18,7 +18,7 @@ On my newly installed Snow Leopard, I installed the following applications:
 * [Quicksilver](http://www.blacktree.com/) (latest ß58 beta from GitHub [repo](http://github.com/tiennou/blacktree-alchemy/downloads))
 * [homebrew](http://github.com/mxcl/homebrew) (replaces MacPorts, need to be built)
 
-There are two important config file repos that I use.  [One](http://github.com/jferris/config_files) is from thoughtbot's Joe Ferris for configuring aliases, irb, gem, git, zsh, vim, etc.  The [other](http://github.com/akitaonrails/vimfiles) is from Fabio Kung (aka AkitaOnRails) who maintains a really nice configuration for vim.  I replaced Joe's vim configuration for Fabio's.  I'm also using [zsh](http://en.wikipedia.org/wiki/Z_shell) instead of [bash](http://en.wikipedia.org/wiki/Bash), just to try it out.  So far I'm pleased with it.
+There are two important config file repos that I use.  [One](http://github.com/jferris/config_files) is from thoughtbot's Joe Ferris for configuring aliases, irb, gem, git, zsh, vim, etc.  The [other](http://github.com/akitaonrails/vimfiles) is from Fabio Akita (aka AkitaOnRails) who maintains a really nice configuration for vim.  I replaced Joe's vim configuration for Fabio's.  I'm also using [zsh](http://en.wikipedia.org/wiki/Z_shell) instead of [bash](http://en.wikipedia.org/wiki/Bash), just to try it out.  So far I'm pleased with it.
 
 The ruby gems I quickly installed were:
 
