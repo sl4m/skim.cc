@@ -16,7 +16,7 @@ The four criterias of a story are that it must:
 * be testable*
 * "fit" in a half iteration's worth of time
 
-_*certain exceptions include, but not limited, to UI design related stories_
+\*certain exceptions include, but not limited, to UI design related stories
 
 You might be wondering about the last criteria.  What does "fit" mean?  How long is an iteration?  Here at 8th Light, each iteration is one week long and a craftsman should commit to completing ten points per iteration.  Story points are a way to estimate how long it will take the developer to complete the story.  So to meet our criteria, a story should be anywhere from 1-5 points.
 
