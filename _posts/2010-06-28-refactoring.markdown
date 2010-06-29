@@ -15,6 +15,6 @@ So I read about Command Pattern on [wikipedia](http://en.wikipedia.org/wiki/Comm
 
 I didn't get far into the book and have even cracked open Michael Feathers' Working Effectively with Legacy Code to pull up this quote:
 
-"Code without tests is bad code.  It doesn't matter how well written it is; it doesn't matter how pretty or object-oriented or well-encapsulated it is.  With tests, we can change the behavior of our code quickly and verifiably.  Without them, we really don't know if our code is getting better or worse."
+> "Code without tests is bad code.  It doesn't matter how well written it is; it doesn't matter how pretty or object-oriented or well-encapsulated it is.  With tests, we can change the behavior of our code quickly and verifiably.  Without them, we really don't know if our code is getting better or worse."
 
 I plan to continue reading Refactoring and Working Effectively with Legacy Code throughout the week.
