@@ -24,6 +24,6 @@ Micah played the role of a customer, I played the role of a developer and he cre
 
 Micah ("customer") then picked out the stories for the first iteration.  Customers usually pick out the stories, but developers are welcome to make suggestions.  He picked seven story cards total and I'm suppose to have them completed by next Tuesday.  This is quite exciting and intimidating at the same time.  Some of the stories he picked, I think I can "fix" pretty quickly, but the ones that require spiking, I'm not too sure about.
 
-Micah gave me the choice of using [GitHub Issue Tracker](http://github.com/blog/411-github-issue-tracker), [Pivotal Tracker](http://www.pivotaltracker.com/), or [AgileZen](http://agilezen.com/) to track my stories.  Luckily, I have some experience with all three.  He preferred using AgileZen, so we created a project.  I entered the ten stories and have already completed a story.  I look forward to getting a lot of work done this week.
+Micah gave me the choice of using [GitHub Issue Tracker](http://github.com/blog/411-github-issue-tracker), [Pivotal Tracker](http://www.pivotaltracker.com/), or [AgileZen](http://agilezen.com/) to track my stories.  Luckily, I have some experience with all three.  He preferred using AgileZen, so we created a project.  I entered the ten stories and have already completed a story.  I look forward to getting a lot of work done this week.  I'll be pushing my story code in a different [branch](http://github.com/sl4m/tic_tac_toe_ruby/tree/ll-refactoring)
 
 ![AgileZen TTT](/images/agilezen_ttt.png)
