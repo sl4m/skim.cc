@@ -19,7 +19,7 @@ Also, the presentation explained how to package a production into a single, comp
 limelight pack production_name
 {% endhighlight %}
 
-It will create an *.llp file which is really a *.tar.gz behind the scenes, but when you double-click the file, Limelight associates with it and will open the application.  I uploaded my first *.llp on GitHub and it's available in the [Downloads](http://github.com/sl4m/tic_tac_toe_ruby/downloads) section.
+It will create an \*.llp file which is really a \*.tar.gz behind the scenes, but when you double-click the file, Limelight associates with it and will open the application.  I uploaded my first \*.llp on GitHub and it's available in the [Downloads](http://github.com/sl4m/tic_tac_toe_ruby/downloads) section.
 
 I spiked several stories and seemed to have a better idea of what I need to do for those stories.  One in particular, I code spiked to create randomness in the way it moves in the MinMaxPlayer class.  I don't think my minmax algorithm is quite working as I'd thought.  Micah was able to set it up where it would not take the best move to win quickly.  It's able to defend and sometimes win, but not look for quick wins.  Here's an example:
 
