@@ -50,11 +50,11 @@ end
 
 Sadly, it took a very long time since profiler takes a little bit more time to execute the code.  Here are the results in five different formats.  I have not taken a look at it carefully, but hopefully it'll give me some answers as to why it's slow.
 
-[flat.txt](/files/flat.txt)
-[graph.txt](/files/graph.txt)
-[graph.html](/files/graph.html)
-[call_tree.txt](/files/call_tree.txt)
-[call_tree.html](/files/call_tree.html)
+* [flat.txt](/files/flat.txt)
+* [graph.txt](/files/graph.txt)
+* [graph.html](/files/graph.html)
+* [call_tree.txt](/files/call_tree.txt)
+* [call_tree.html](/files/call_tree.html)
 
 You can read more about what each of these files mean [here](http://danlucraft.com/blog/2010/03/jruby-prof/).
 
