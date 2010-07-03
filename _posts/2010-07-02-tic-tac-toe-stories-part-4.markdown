@@ -15,7 +15,7 @@ It was my turn to pick up lunch for Lunch N Learn (Li-Hsuan and I switch every w
 * make more than one appear on screen in different places, sizes, rotations
 * bonus points if animated
 
-Last night and throughout part of today I worked on my minmax algorithm.  I thought my algorithm code was broken, but it actually isn't.  One thing is pretty clear, my MinMax player cannot be beat.  But when the winning opportunity is given to the MinMax player it won't take it - at least not right away.  The problem lies around the fact that it does not take an immediate win.  While Eric was giving his presentation, I had one of those aha! moments and tweaked my scoring method to give a better score for a move that had an immediate win than a score without.  This is a rough look of the new scoring method:
+Last night and throughout part of today I worked on my minmax algorithm.  I thought my algorithm code was broken, but it actually isn't.  One thing is pretty clear, my MinMax player cannot be beat.  But when the winning opportunity is given to the MinMax player it won't take it - at least not right away.  The problem lies around the issue with depth and scoring.  While Eric was giving his presentation, I had one of those aha! moments and tweaked my scoring method to give a better score for a move that had an immediate win than a score without.  This is a rough look of the new scoring method:
 
 {% highlight ruby %}
   def evaluate_score(board, piece, depth)
