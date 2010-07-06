@@ -146,4 +146,4 @@ As you can see, the pruning significantly helps the first move.  The median for 
 
 Well, I hope you learned something from this.  I sure did.  Negamax with alpha beta pruning is clearly the winner.  There are other, [modern algorithms](http://en.wikipedia.org/wiki/Alpha-beta_pruning#Other_algorithms) which are even faster, but I think it might be overkill for a simple game like Tic Tac Toe.
 
-I shot an email to Micah (customer) last night and he prioritized the backlog stories so I can work on them in this new iteration.  More on that in another post.
+I shot an email to Micah (customer) last night and he prioritized the backlog stories so I can work on them in this new iteration.  More on that in another post...
