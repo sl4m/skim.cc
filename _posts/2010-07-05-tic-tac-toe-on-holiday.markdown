@@ -7,9 +7,11 @@ categories:
   -- refactoring
 ---
 
+*Note:* In my previous posts, I called the algorithm I used [Minmax](http://en.wikipedia.org/wiki/Minimax), where in fact it's really [Negamax](http://en.wikipedia.org/wiki/Negamax).  Going forward with this post, I will call it Negamax.
+
 I worked a bit on the Tic Tac Toe stories, but mostly distracted from the nice, holiday weekend.  Unfortunately, The Sight Below cancelled so I did not go to his show.  I guess there's always a next time.  
 
-I probably shouldn't have worked on a story that was not under the Working phase, but that is what I ended up doing.  I have a bad habit of scratching my own itch and story #11, "MinMax Player takes too long to move" was the itch.  I was trying to implement the alpha-beta pruning for the Negamax algorithm in hopes that it will resolve the lag present in the code.  I looked at three different pseudocodes I found on the internet:
+I probably shouldn't have worked on a story that was not under the Working phase, but this is what I ended up doing.  I have a bad habit of scratching my own itch and story #11, "MinMax Player takes too long to move" was the itch.  I was trying to implement the alpha-beta pruning for the Negamax algorithm in hopes that it will resolve the lag present in the game.  I looked at three different pseudocodes I found on the internet:
 
 [MinMax with Alpha-Beta pruning](http://www.ocf.berkeley.edu/~yosenl/extras/alphabeta/alphabeta.html) (not Negamax)
 
@@ -144,4 +146,4 @@ As you can see, the pruning significantly helps the first move.  The median for 
 
 Well, I hope you learned something from this.  I sure did.  Negamax with alpha beta pruning is clearly the winner.  There are other, [modern algorithms](http://en.wikipedia.org/wiki/Alpha-beta_pruning#Other_algorithms) which are even faster, but I think it might be overkill for a simple game like Tic Tac Toe.
 
-I shot an email to Micah (customer) last night and he prioritized the backlog stories so I can work on them in this new iteration.
+I shot an email to Micah (customer) last night and he prioritized the backlog stories so I can work on them in this new iteration.  More on that in another post.
