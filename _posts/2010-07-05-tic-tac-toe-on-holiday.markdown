@@ -142,7 +142,7 @@ If you take a look, the key line is where it breaks the loop when alpha is great
 </tbody>
 </table>
 
-As you can see, the pruning significantly helps the first move.  The median for Negamax only code was 5.6045 while Negamax with alpha beta pruning was 0.3465.  The mean for Negamax only was 5.9068 and the Negamax alpha beta pruning was 0.4159.  You might also notice the times for both algorithms improved after each iteration.  I could be wrong, but I think it has something to do with the JIT-compiler in JRuby.  Yes, these tests were run using JRuby 1.5.1 (1.8.7-p249).
+As you can see, the pruning significantly helps the first move.  The median for Negamax only code was *5.6045* while Negamax with alpha beta pruning was *0.3465*.  The mean for Negamax only was *5.9068* and the Negamax alpha beta pruning was *0.4159*.  You might also notice the times for both algorithms improved after each iteration.  I could be wrong, but I think it has something to do with the JIT-compiler in JRuby.  Yes, these tests were run using JRuby 1.5.1 (1.8.7-p249).
 
 Well, I hope you learned something from this.  I sure did.  Negamax with alpha beta pruning is clearly the winner.  There are other, [modern algorithms](http://en.wikipedia.org/wiki/Alpha-beta_pruning#Other_algorithms) which are even faster, but I think it might be overkill for a simple game like Tic Tac Toe.
 

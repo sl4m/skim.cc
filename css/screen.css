@@ -139,3 +139,28 @@ em {
   -moz-border-radius: 7px;  
   border: 1px solid #A5A5A5;
 }
+#content table {
+  border-collapse: collapse; 
+}
+
+#content table th {
+  padding: .5em 1em .25em 1em;
+  background-color: #ddd;
+  border: 1px solid black;
+  border-bottom: 2px solid black;
+}
+
+#content table td {
+  padding: .25em 1em .25em 1em;
+  border: 1px solid black;
+}
+
+#content table th.category {
+  border-right: 2px solid black;
+}
+
+#content table td.category {
+  background-color: #ddd;
+  font-weight: bold;
+  border-right: 2px solid black;
+}
