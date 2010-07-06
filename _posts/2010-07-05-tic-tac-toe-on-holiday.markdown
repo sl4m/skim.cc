@@ -9,7 +9,7 @@ categories:
 
 *Note:* In my previous posts, I called the algorithm I used [Minmax](http://en.wikipedia.org/wiki/Minimax), where in fact it's really [Negamax](http://en.wikipedia.org/wiki/Negamax).  Going forward with this post, I will call it Negamax.
 
-I worked a bit on the Tic Tac Toe stories, but mostly distracted from the nice, holiday weekend.  Unfortunately, The Sight Below cancelled so I did not go to his show.  I guess there's always a next time.  
+I worked a bit on the Tic Tac Toe stories, but mostly distracted from the nice, holiday weekend.  Unfortunately, The Sight Below canceled so I did not go to his show.  I guess there's always a next time.  
 
 I probably shouldn't have worked on a story that was not under the Working phase, but this is what I ended up doing.  I have a bad habit of scratching my own itch and story #11, "MinMax Player takes too long to move" was the itch.  I was trying to implement the alpha-beta pruning for the Negamax algorithm in hopes that it will resolve the lag present in the game.  I looked at three different pseudocodes I found on the internet:
 
