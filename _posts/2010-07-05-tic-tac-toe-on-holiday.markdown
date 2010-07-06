@@ -92,7 +92,7 @@ When I first spiked and tried implementing the code, I used the first pseudocode
 If you take a look, the key line is where it breaks the loop when alpha is greater or equal to beta.  This is where it prunes branches that give no value to the MinMax player.  To test the performance differences between Negamax code and Negamax with alpha-beta pruning code, I tested how long it took the MinMax player to make its first move in ten separate games.
 
 <table>
-<tr><th>Negamax</th><th>Negamax with Alpha-Beta pruning</th></tr>
+<tr><th>Negamax</th><th>Negamax with Alpha-Beta pruning (in seconds)</th></tr>
 <tr><td>7.014</td><td>0.836</td></tr>
 <tr class='even'><td>6.75</td><td>0.53</td></tr>
 <tr><td>6.324</td><td>0.469</td></tr>
