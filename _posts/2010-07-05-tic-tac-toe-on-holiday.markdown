@@ -92,54 +92,17 @@ When I first spiked and tried implementing the code, I used the first pseudocode
 If you take a look, the key line is where it breaks the loop when alpha is greater or equal to beta.  This is where it prunes branches that give no value to the MinMax player.  To test the performance differences between Negamax code and Negamax with alpha-beta pruning code, I tested how long it took the MinMax player to make its first move in ten separate games.
 
 <table>
-<thead>
-<tr>
-  <th align="left">Negamax</th>
-  <th align="right">Negamax with Alpha-Beta pruning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td align="left">7.014</td>
-  <td align="right">0.836</td>
-</tr>
-<tr>
-  <td align="left">6.75</td>
-  <td align="right">0.53</td>
-</tr>
-<tr>
-  <td align="left">6.324</td>
-  <td align="right">0.469</td>
-</tr>
-<tr>
-  <td align="left">5.576</td>
-  <td align="right">0.45</td>
-</tr>
-<tr>
-  <td align="left">5.893</td>
-  <td align="right">0.368</td>
-</tr>
-<tr>
-  <td align="left">5.392</td>
-  <td align="right">0.312</td>
-</tr>
-<tr>
-  <td align="left">5.409</td>
-  <td align="right">0.311</td>
-</tr>
-<tr>
-  <td align="left">5.508</td>
-  <td align="right">0.325</td>
-</tr>
-<tr>
-  <td align="left">5.633</td>
-  <td align="right">0.258</td>
-</tr>
-<tr>
-  <td align="left">5.569</td>
-  <td align="right">0.3</td>
-</tr>
-</tbody>
+<tr><th>Negamax</th><th>Negamax with Alpha-Beta pruning</th></tr>
+<tr><td>7.014</td><td>0.836</td></tr>
+<tr class='even'><td>6.75</td><td>0.53</td></tr>
+<tr><td>6.324</td><td>0.469</td></tr>
+<tr class='even'><td>5.576</td><td>0.45</td></tr>
+<tr><td>5.893</td><td>0.368</td></tr>
+<tr class='even'><td>5.392</td><td>0.312</td></tr>
+<tr><td>5.409</td><td>0.311</td></tr>
+<tr class='even'><td>5.508</td><td>0.325</td></tr>
+<tr><td>5.633</td><td>0.258</td></tr>
+<tr class='even'><td>5.569</td><td>0.3</td></tr>
 </table>
 
 As you can see, the pruning significantly helps the first move.  The median for Negamax only code was *5.6045* while Negamax with alpha beta pruning was *0.3465*.  The mean for Negamax only was *5.9068* and the Negamax alpha beta pruning was *0.4159*.  You might also notice the times for both algorithms improved after each iteration.  I could be wrong, but I think it has something to do with the JIT-compiler in JRuby.  Yes, these tests were run using JRuby 1.5.1 (1.8.7-p249).
