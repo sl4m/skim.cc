@@ -1,6 +1,6 @@
 ---
 layout: post
-title: tic tac toe - iteration #2
+title: tic tac toe - iteration 2
 date: 2010-07-07 10:30:00 -05:00
 categories:
   -- software craftsmanship
