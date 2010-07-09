@@ -14,16 +14,13 @@ This is part 3 of what I thought was Iteration \#2, but today officially started
 
 The other big story (5 points) is to have the option of playing a 4x4 Tic Tac Toe board.  I estimated the story at 5 points because of the changes I'll need to make to the existing classes:
 
-* UI classes
-  + ask user for the board type
-
+* UI classes  
+  * ask user for the board type
 * Board class
-  + display 4x4 board
-  + add winning patterns for 4x4
-
+  * display 4x4 board
+  * add winning patterns for 4x4
 * CpuPlayer class
-  + rules-based logic to support 4x4
-
+  * rules-based logic to support 4x4
 
 Initially, I thought I needed to create a new Negamax algorithm for the 4x4 board support, but after looking at the code and thinking it through, it's not needed.  The Board class will know when the game is over from a draw or win.
 
