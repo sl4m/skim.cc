@@ -10,6 +10,15 @@ categories:
 
 *End of Iteration Meeting*
 
+*   Abacus
+    * answer
+*   Bubbles
+    1.  bunk
+    2.  bupkis
+        * BELITTLER
+    3. burper
+*   Cunning
+
 This is part 3 of what I thought was Iteration \#2, but today officially started the new iteration.  Micah (customer) and I had the "end of iteration" meeting today where we went over the stories that were allotted for Iteration \#1.  I've managed to complete all of them plus more from the backlog; but this iteration lasted for more than a week due to the holiday and scheduling conflicts.  With that said, I'm right around the ballpark of 10 points per week which is what 8th Lighters complete.  I moved the completed stories to the archive as I demonstrated and talked about each one.  Micah was satisfied with almost all of them except for the Limelight UI enhancement story which I did not meet his expectation (more on why in the retrospective below).  However, to improve on that story and to improve my designer eye, we created a story that calls for creating a mock-up of the game UI from a designer point of view using [Balsamiq's Mockups](http://www.balsamiq.com/products/mockups/desktop) application.  I look forward to working on this story as I could use some designer experience.
 
 The other big story (5 points) is to have the option of playing a 4x4 Tic Tac Toe board.  I estimated the story at 5 points because of the changes I'll need to make to the existing classes:
@@ -40,15 +49,6 @@ This was my very first [retrospective](http://en.wikipedia.org/wiki/Retrospectiv
 * \- not throwing away spike code
 
 Although there were more bad than good, I think having them exposed can help us confront them rather than not talking about them at all.  This is what we came up with to improve the bad:
-
-*   Abacus
-    * answer
-*   Bubbles
-    1.  bunk
-    2.  bupkis
-        * BELITTLER
-    3. burper
-*   Cunning
 
 * working 24/7
  - work less
