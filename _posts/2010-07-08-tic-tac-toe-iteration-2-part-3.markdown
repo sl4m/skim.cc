@@ -28,14 +28,14 @@ I am to complete these two stories by the end of this new iteration.
 
 This was my very first [retrospective](http://en.wikipedia.org/wiki/Retrospective#Software_development) ever.  I think retrospectives are a way of saying "Hey, I care about you and your quality of work, let's do something about continually improving what you do."  It's a great feedback loop between customer and developer to reflect on the good and bad and come up with ways to improve for the next iteration.  Here is the list of good and bad we came up with:
 
-* + tackled small stories first
-* + stories were completed
-* + some stories from backlog were completed
-* - working 24/7 
-* - weekend broke productivity flow
-* - mismatch expectation for Limelight UI story
-* - lost in refactoring tangent
-* - not throwing away spike code
+* \+ tackled small stories first
+* \+ stories were completed
+* \+ some stories from backlog were completed
+* \- working 24/7 
+* \- weekend broke productivity flow
+* \- mismatch expectation for Limelight UI story
+* \- lost in refactoring tangent
+* \- not throwing away spike code
 
 Although there were more bad than good, I think having them exposed can help us confront them rather than not talking about them at all.  This is what we came up with to improve the bad:
 
