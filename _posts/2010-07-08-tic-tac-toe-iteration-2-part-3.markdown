@@ -15,12 +15,12 @@ This is part 3 of what I thought was Iteration \#2, but today officially started
 The other big story (5 points) is to have the option of playing a 4x4 Tic Tac Toe board.  I estimated the story at 5 points because of the changes I'll need to make to the existing classes:
 
 * UI classes
-   * ask user for the board type
+    - ask user for the board type
 * Board class
-   * display 4x4 board
-   * add winning patterns for 4x4
+    - display 4x4 board
+    - add winning patterns for 4x4
 * CpuPlayer class
-   * rules-based logic to support 4x4
+    - rules-based logic to support 4x4
 
 Initially, I thought I needed to create a new Negamax algorithm for the 4x4 board support, but after looking at the code and thinking it through, it's not needed.  The Board class will know when the game is over from a draw or win.
 
@@ -42,16 +42,16 @@ This was my very first [retrospective](http://en.wikipedia.org/wiki/Retrospectiv
 Although there were more bad than good, I think having them exposed can help us confront them rather than not talking about them at all.  This is what we came up with to improve the bad:
 
 * working 24/7
-  * work less
+    - work less
 * weekend broke productivity flow
-  * perform smaller commits
-  * complete task at hand or leave failed test to act as a bookmark
+    - perform smaller commits
+    - complete task at hand or leave failed test to act as a bookmark
 * mismatch expectation for Limelight UI story
-  * more communication with customer during iteration for quick feedback loop
+    - more communication with customer during iteration for quick feedback loop
 * lost in refactoring tangent
-  * discipline over time
+    - discipline over time
 * not throwing away spike code
-  * throw it away
+    - throw it away
 
 We didn't really talk about "working 24/7", but in practical sense, I should work less.  If I burn myself out, I'll end up losing more time, recovering, than the extra amount of work completed from the late hours.  While there will be some weekends where I'll need to catch up on stories, etc., weekends should be about me.  Lately, I've been continuously learning almost every evening and weekend to learn as much as I can.  This was my choice though, but I hope to find a good ratio of work, study, and play.  Maybe a retrospective about continuous learning?
 
