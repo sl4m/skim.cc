@@ -41,6 +41,15 @@ This was my very first [retrospective](http://en.wikipedia.org/wiki/Retrospectiv
 
 Although there were more bad than good, I think having them exposed can help us confront them rather than not talking about them at all.  This is what we came up with to improve the bad:
 
+*   Abacus
+    * answer
+*   Bubbles
+    1.  bunk
+    2.  bupkis
+        * BELITTLER
+    3. burper
+*   Cunning
+
 * working 24/7
  - work less
 * weekend broke productivity flow
