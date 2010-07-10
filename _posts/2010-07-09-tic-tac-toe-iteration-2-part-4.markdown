@@ -22,4 +22,4 @@ I worked a bit on Story #14, "Optional 4x4 board", by adding features to the Std
 
 Since CpuPlayer class is using rule-based logic to win/defend, I need to add the pattern set for a 4x4 board.  EasyCpuPlayer uses pure randomization to move its piece so nothing changes there.  NegamaxPlayer uses the Negamax algorithm which is not affected by the board size either.
 
-I look forward to finishing up this story and work the mock-up story.  Have a great weekend!
+I look forward to finishing up this story and work on the mock-up story.  Have a great weekend!
