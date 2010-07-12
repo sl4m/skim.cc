@@ -11,6 +11,8 @@ The 4x4 board option is almost complete with exception to updating the rules-bas
 
 I'm running the Negamax player on a 4x4 board and for the first time since I upgraded to this MacBook Pro, I'm hearing the fans spin.  This computer is working hard to compute those trillion moves.  It's been about 5 minutes so far and it still hasn't made its first move.  I'm going run it over night just to find out how long it takes to make the first move.
 
+*Update:* it took Negamax player 4106.039 seconds or roughly 68 minutes to make the first move.
+
 {% highlight text %}
 Choose player type for 'O' (enter 'h' for human or 'e' for easy cpu, 'm' for  medium cpu or 'u' for unbeatable cpu) h
 
