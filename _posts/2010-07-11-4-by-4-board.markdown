@@ -9,7 +9,7 @@ categories:
 
 The 4x4 board option is almost complete with exception to updating the rules-based patterns for CpuPlayer class and adding the Limelight UI elements.  It seems to be working fine in stdin/stdout.  The only problem I'm running into is testing the Negamax player on a 4x4 board.  The first move just takes way too long!  A 3x3 board has about 9! or 362,880 possible moves.  A 4x4 board, however, has 16! or 2.09227899 × 10^13 possible moves.  I helped it out by moving first as a human, so it really has 1,307,674,368,000 possible moves which is about 3,603,600 times more possible moves than the 3x3 board.
 
-I'm running the Negamax player on a 4x4 board and for the first time since I upgraded to this MacBook Pro, I'm hearing the fans spin.  This computer is working its butt to compute those trillion moves.  It's been about 5 minutes so far and it still hasn't made its first move.  I'm going run it over night just to find out how long it takes to make the first move.
+I'm running the Negamax player on a 4x4 board and for the first time since I upgraded to this MacBook Pro, I'm hearing the fans spin.  This computer is working hard to compute those trillion moves.  It's been about 5 minutes so far and it still hasn't made its first move.  I'm going run it over night just to find out how long it takes to make the first move.
 
 {% highlight text %}
 Choose player type for 'O' (enter 'h' for human or 'e' for easy cpu, 'm' for  medium cpu or 'u' for unbeatable cpu) h
