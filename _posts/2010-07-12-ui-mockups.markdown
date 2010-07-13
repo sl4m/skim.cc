@@ -32,7 +32,7 @@ CpuPlayer class required a bit more effort because of the regular expression pat
 
 *UI mockups using Balsamiq*
 
-I created a couple of mock-ups on what I wanted the Tic Tac Toe UI to look like.  To be honest, it looks pretty much the same with an exception to the options (e.g., board size, players, start game button) which were moved to another scene.  Here are the mockups thus far.  I sent them to the customer so that he may review them and see if it's what he wanted.  I have a feeling he'll want something completely different.  I'll let you know.
+I created a couple of mockups on what I wanted the Tic Tac Toe UI to look like.  To be honest, it looks pretty much the same with an exception to the options (e.g., board size, players, start game button) which were moved to another scene.  Here are the mockups thus far.  I sent them to the customer so that he may review them and see if it's what he wanted.  I have a feeling he'll want something completely different.  I'll let you know.
 
 Options
 
