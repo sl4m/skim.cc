@@ -44,4 +44,4 @@ Board
 
 *Ruby Midwest*
 
-I'm attending the first [Ruby Midwest](http://rubymidwest.com/) conference in Kansas City.  It's a two-day, single track conference, packed with some great [talks](http://rubymidwest.com/schedule.html).  I don't know about you, but I love single track conferences.  It's rewarding to be able to listen to every single talk.  I look forward to meeting more Rubyists and experience the Kansas City [BBQ](http://omgwtfbbq.heroku.com/).
+I'm attending the first [Ruby Midwest](http://rubymidwest.com/) conference in Kansas City later this week.  It's a two-day, single track conference, packed with some great [talks](http://rubymidwest.com/schedule.html).  I don't know about you, but I love single track conferences.  It's rewarding to be able to listen to every single talk.  I look forward to meeting more Rubyists and experience the Kansas City [BBQ](http://omgwtfbbq.heroku.com/).
