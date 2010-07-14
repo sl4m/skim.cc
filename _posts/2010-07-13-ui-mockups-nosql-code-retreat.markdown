@@ -12,11 +12,11 @@ categories:
 
 *UI Mockups*
 
-I met with the customer today to go over the UI mockups and overall he seemed happy with it.  I need to add a Try Again yes/no overlay on the board and add tasteful images to the board and pieces.  He still wants an unprecedented, eye candy look to the game, so if I can't find any Creative Commons images on the web, I may have to create them from scratch using an image editor.  I wonder if I can make the board and pieces look 3D.  I'll have to do some research.
+I met with the customer today to go over the UI mockups and overall he seemed happy with them.  I need to add a Try Again yes/no overlay on the board and add tasteful images to the board and pieces.  He still wants an unprecedented, eye candy look to the game, so if I can't find any Creative Commons images on the web, I may have to create them from scratch using an image editor.  I wonder if I can make the board and pieces look 3D.  I'll have to do some research.
 
 *Breaking Open/Closed Principle*
 
-When I showed Micah (mentor) the 4x4 board option, I explained to him about the 4x4 complications of the regex pattern matching CpuPlayer class.  He indicated that the EasyCpuPlayer and NegamaxPlayer both can be extensible ([open/closed principle](http://en.wikipedia.org/wiki/Open/closed_principle)) when changing things like supporting a 4x4 board, but the CpuPlayer cannot.  I'm not sure if there is a way to make it extensible (e.g., throwing the patterns into a module and including it in CpuPlayer) or if pattern matching is just not the way to go.  Either case, it still tries to win/block when it sees the pattern and is code-wise better than the EasyCpuPlayer.  I can put my effort on to the performance of the Negamax against the 4x4.
+When I showed Micah (mentor) the 4x4 board option, I explained to him about the 4x4 complications of the regex pattern matching for the CpuPlayer class.  He indicated that the EasyCpuPlayer and NegamaxPlayer can be extensible ([open/closed principle](http://en.wikipedia.org/wiki/Open/closed_principle)) when changing things like supporting a 4x4 board, but the CpuPlayer cannot.  I'm not sure if there is a way to make it extensible (e.g., throwing the patterns into a module and including it in CpuPlayer) or if pattern matching is just not the way to go.  Either case, it still tries to win/block when it sees the pattern and is code-wise, better than the EasyCpuPlayer.  I have spare time to put effort into the performance of the Negamax against the 4x4.
 
 *NoSQL for Negamax*
 
@@ -24,7 +24,7 @@ I told Micah (mentor) that it takes the Negamax player approximately 68 minutes 
 
 *Code Retreat with Corey Haines*
 
-Corey stopped by the 8th Light office and guided us on a session of his code retreat.  It's the original code retreat that [inspired the code retreat sessions](http://skim.cc/2010/06/09/day-2-railsconf-2010/) I participated at BohConf (at RailsConf) this year.  We all paired up and TDD'd to our heart's content in an attempt to create Conway's Game of Life.  Here are some notes I wrote down from the session:
+Corey stopped by the 8th Light office and guided us on a session of his code retreat.  It's the original code retreat that [inspired the code retreat sessions](http://skim.cc/2010/06/09/day-2-railsconf-2010/) I participated at BohConf (at RailsConf) this past month.  We all paired up and TDD'd to our heart's content in an attempt to create Conway's Game of Life.  Here are some notes I wrote down from the session:
 
 * don't immediately jump to abstractions
 * create smaller scopes
@@ -34,4 +34,4 @@ Corey stopped by the 8th Light office and guided us on a session of his code ret
 
 The code retreats are about minimizing the gap between what you wish you could code and what you actually can code within a given time.  The gap is how much you suck.
 
-At the end of the session, we threw away our code in habitual effort to detach ourselves from the code.  I'm going to try these code retreat sessions for the [Game of Life challenge](http://rubylearning.com/blog/2010/06/28/rpcfn-the-game-of-life-11/) and see where it leads me.
+At the end of the session, we threw away our code in a habitual effort to detach ourselves from the code.  I'm going to try these code retreat sessions for the [Game of Life challenge](http://rubylearning.com/blog/2010/06/28/rpcfn-the-game-of-life-11/) and see where it leads me.
