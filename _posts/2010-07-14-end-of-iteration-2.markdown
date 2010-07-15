@@ -81,6 +81,22 @@ coll.find().each { |doc| puts doc.inspect }
 coll.drop
 {% endhighlight %}
 
+See the results
+
+{% highlight text %}
+[~/local/ruby] ruby mongo_simple.rb
+
+**Notice: C extension not loaded. This is required for optimum MongoDB Ruby driver performance.
+  You can install the extension as follows:
+  gem install bson_ext
+  If you continue to receive this message after installing, make sure that the
+  bson_ext gem is in your load path and that the bson_ext and mongo gems are of the same version.
+There are 3 records in the test collection. Here they are:
+{"_id"=>BSON::ObjectID('4c3e9de8cc9ed64326000001'), "a"=>1}
+{"_id"=>BSON::ObjectID('4c3e9de8cc9ed64326000002'), "a"=>2}
+{"_id"=>BSON::ObjectID('4c3e9de8cc9ed64326000003'), "a"=>3}
+{% endhighlight %}
+
 I didn't get much further than that.  I will be working on the MongoDB Ruby Koans tomorrow to get a better understanding of MongoDB and usage patterns.
 
 *End of Iteration 2 Meeting*
