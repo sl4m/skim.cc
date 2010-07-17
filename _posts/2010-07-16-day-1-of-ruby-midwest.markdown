@@ -118,7 +118,7 @@ With meta frameworks like Sass, you can build unobtrusive stylesheets which allo
 * flexibility for theming and alternate stylesheets
 * easier redesigns
 
-*Lightning Talks*
+##Lightning Talks
 
 During the [OMGWTF BBQ](http://omgwtfbbq.heroku.com/), there were 7 or 8 lightning talks.
 
