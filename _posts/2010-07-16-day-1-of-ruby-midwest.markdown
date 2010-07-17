@@ -9,19 +9,19 @@ categories:
 
 Here are my favorite talks of the day.  Starting with Chris Wanstrath ([@defunkt](http://twitter/com/defunkt))'s keynote, he listed ways to improve OSS projects and ways to improve the overall experience to the user.  He gave project examples of what worked and what didn't work.  Here is a partial list of ways to improve OSS experience:
 
-    * be a lazy maintainer - write a road map of the features you want in the project
-    * convert README to man pages
-    * create a maintainer/contribution guide
-    * use semantic versioning
-    * (too few and too many releases) == bad
-    * it's much harder to remove a feature than to accept it
-    * non-maintained projects should SAY SO!
-    * documentation is a good thing
-    * make installation process super simple
-    * make the API human-friendly
-    * always have a license file for projects
-    * google your project name before you make it official
-    * small projects should not have a domain especially if you do not plan to renew the domain fee
+* be a lazy maintainer - write a road map of the features you want in the project
+* convert README to man pages
+* create a maintainer/contribution guide
+* use semantic versioning
+* (too few and too many releases) == bad
+* it's much harder to remove a feature than to accept it
+* non-maintained projects should SAY SO!
+* documentation is a good thing
+* make installation process super simple
+* make the API human-friendly
+* always have a license file for projects
+* google your project name before you make it official
+* small projects should not have a domain especially if you do not plan to renew the domain fee
 
 Projects that work
 
