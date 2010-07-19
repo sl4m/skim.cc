@@ -1,7 +1,7 @@
 ---
 layout: post
 title: day 2 of ruby midwest
-date: 2010-07-18 12:00:00 -05:00
+date: 2010-07-19 12:00:00 -05:00
 categories:
   -- software craftsmanship
   -- conference
