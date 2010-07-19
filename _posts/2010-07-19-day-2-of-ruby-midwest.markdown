@@ -59,12 +59,12 @@ Aman Gupta talked about memprofiler.  I listened to his talk with Joe Damato at 
 <li>More objects == longer GC time, fewer objects == better performance</li>
 <li>When GC is running, nothing else runs which pads response time.</li>
 <li>useful tools
-<ol><li>ObjectSpace.each<em>object</li>
-<li>ObjectSpace.count</em>objects (in Ruby 1.9)</li>
+<ol><li>ObjectSpace.each_object</li>
+<li>ObjectSpace.count_objects (in Ruby 1.9)</li>
 <li>gdb.rb: gdb hooks for REE (<a href="http://github.com/tmm1/gdb.rb">http://github.com/tmm1/gdb.rb</a>)
 <ul><li>linux only</li></ul></li>
-<li>bleak<em>house
-<ul><li>github.com/fauna/bleak</em>house</li>
+<li>bleak_house
+<ul><li><a href="http://github.com/fauna/bleak_house">http://github.com/fauna/bleak_house</a></li>
 <li>installs a custom patched version of ruby</li>
 <li>tells you what is leaking, and also where</li></ul></li>
 <li>heap dumping patches
