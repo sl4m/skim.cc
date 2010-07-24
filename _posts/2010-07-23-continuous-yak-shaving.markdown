@@ -25,7 +25,7 @@ Your tests are there to help you understand if the changes you've made in the co
 
 ## Start with a clean slate, if your tests are failing
 
-Sometimes, when you're knee deep in your newly written code, the tests aren't passing, and you're getting super frustrated, it's best to start over.  After a long day of attempting to fix tests and frustration ensued, I ran the wonderful command *git checkout \-\- \<file\>* and started over.  I added the new methods individually and made sure each method passed all tests before moving on to the next.  Seeing green once again put me in a really good mood.
+Sometimes, when you're knee deep in your newly written code, the tests aren't passing, and you're getting super frustrated, it's best to start over.  After a long day of attempting to fix tests and frustration ensued, I ran the wonderful command *git checkout -- file* and started over.  I added the new methods individually and made sure each method passed all tests before moving on to the next.  Seeing green once again put me in a really good mood.
 
 ## Truly understand how algorithms work
 
