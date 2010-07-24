@@ -1,7 +1,7 @@
 ---
 layout: post
 title: continuous yak shaving - lessons learned
-date: 2010-07-23 20:00:00 -05:00
+date: 2010-07-24 12:00:00 -05:00
 categories:
   -- software craftsmanship
   -- mongodb
