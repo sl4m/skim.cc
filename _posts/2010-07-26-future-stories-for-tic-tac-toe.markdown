@@ -68,7 +68,7 @@ I think in the future, Limelight will incorporate Bundler to handle external gem
 
 ## Apprenticeship Retrospective
 
-It's amazing how fast time flies.  I've been here for almost two months now, and it feels like I just started a couple of weeks ago.  Micah put two columns on the whiteboard, "Good" and "Improve On".  He and I both took turns writing things down on both columns.  Overall, I believe I'm on the right track.  To stress on what needs to improved, here is the list we wrote down:
+It's amazing how fast time flies.  I've been here for almost two months now, and it feels like I just started a couple of weeks ago.  Micah put two columns on the whiteboard, "Good" and "Improve On".  He and I both took turns writing things down on both columns.  Overall, I believe I'm on the right track.  To stress on what needs to improve, here is the list we wrote down:
 
 * TDD
 * story estimation
