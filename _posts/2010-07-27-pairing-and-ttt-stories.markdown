@@ -9,7 +9,7 @@ categories:
   -- pairing
 ---
 
-Paul needed a pair today so he asked me and I gladly accepted.  The last time I paired with Paul when I was in the 8th Light office for the first time before the apprenticeship offer.  It was great to pairing with him because I get more exposure to the framework I really want to know inside out - Rails.  For a couple of hours, we worked on a story and created acceptance tests using Cucumber and generated a controller, model, view with its respective specs.  It was great getting some exposure to the variety of tools used in Rails projects.  I had the opportunity to ask Paul many questions and he was kind enough to answer them all and elaborately.
+Paul asked me if I wanted to pair with him and I gladly accepted.  The last time I paired with Paul was when I was in the 8th Light office for the first time before the apprenticeship offer.  It was great pairing with him because I get more exposure to the Rails framework and other tools associated with it.  For a couple of hours, we worked on a story and created acceptance tests using Cucumber and generated a controller, model, view with its respective specs.  It was great getting some exposure to the variety of tools used in Rails projects.  I had the opportunity to ask Paul many questions and he was kind enough to answer them all and elaborately.
 
 ![TTT New Look](/images/ttt_new_look.jpg)
 
