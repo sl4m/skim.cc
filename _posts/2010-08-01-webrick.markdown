@@ -58,5 +58,6 @@ it "returns false if MongoDB is not installed" do
 
   MongoCache.db_installed?.should == false
 end
+{% endhighlight %}
 
 I needed to use this to mock an environment where MongoDB is not installed.  I think my RSpec tests are looking better.  I know some people are against mocking/stubbing and I'd like to find out why.  Perhaps, excessive use of it can be bad or if you default to using mocks/stubs where a test can easily be written without them.  I'll have to do some more reading.
