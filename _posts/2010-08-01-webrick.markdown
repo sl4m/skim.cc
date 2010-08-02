@@ -17,6 +17,7 @@ Today, I did a bit of research on WEBrick, an HTTP server library that is part o
 * [Gnome's Guide to WEBrick](http://microjet.ath.cx/webrickguide/html/What_is_WEBrick.html)
 * [Eric Hodel's WEBrick articles](http://segment7.net/projects/ruby/WEBrick/index.html)
 * [WEBrick rdoc](http://www.ruby-doc.org/stdlib/libdoc/webrick/rdoc/)
+* [WEBrick (down at this time)](http://webrick.org/)
 
 ## TTT Configuration Story
 
