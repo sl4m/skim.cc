@@ -1,0 +1,62 @@
+---
+layout: post
+title: webrick
+date: 2010-08-01 23:59:00 -05:00
+categories:
+  -- software craftsmanship
+  -- ruby
+  -- stories
+  -- webrick  
+---
+
+Today, I did a bit of research on WEBrick, an HTTP server library that is part of the Ruby standard library.  While it's no longer used in production (superseded by Mongrel) for Rails apps, it's still great for kicking off local development/testing environments or trying out new things.  A couple of stories for this iteration involves having WEBrick serve my Tic Tac Toe program.  I'll be using these resources I found on the web:
+
+## WEBrick Resources
+
+* [Ilya Grigorik's Dynamic WEBrick Servers in Ruby](http://www.igvita.com/2007/02/13/building-dynamic-webrick-servers-in-ruby/)
+* [Gnome's Guide to WEBrick](http://microjet.ath.cx/webrickguide/html/What_is_WEBrick.html)
+* [Eric Hodel's WEBrick articles](http://segment7.net/projects/ruby/WEBrick/index.html)
+* [WEBrick rdoc](http://www.ruby-doc.org/stdlib/libdoc/webrick/rdoc/)
+
+## TTT Configuration Story
+
+I finished the configuration story which allows the user to configure how the board will cache the moves - in a MongoDB, Ruby hash, or nothing.  I also added a nice feature that detects if a MongoDB is properly installed on the machine.  If it isn't, it automatically disables the board which is configured to use Mongo.
+
+## RSpec
+
+Instead of reading The Well Grounded Rubyist, I fell into reading the latest beta of RSpec (b15).  There are some cool features I didn't know about that existed in RSpec.  The first cool feature is how you can use pending in three different ways.  I knew how to use one way:
+
+{% highlight ruby %}
+it "should return 0"
+{% endhighlight %}
+
+Simple enough, since I did not provide a do block, it acts as a pending test.  Here are the other ways to create pending tests.
+
+{% highlight ruby %}
+it "should return 0" do
+  pending "not yet implemented"
+end
+{% endhighlight %}
+
+When RSpec reaches the pending method, it will stop execution and skip the test.
+
+{% highlight ruby %}
+it "should return 0" do
+  pending("bug report 123") do
+    @documents.should == 0
+  end
+end
+{% endhighlight %}
+
+This will actually run the code in the block.  What's great about this feature is that if the code actually passes, RSpec will raise a PendingExampleFixedError letting the user know that the pending is no longer needed because it's fixed.
+
+I also needed to know how a mock can raise an exception.
+
+{% highlight ruby %}
+it "returns false if MongoDB is not installed" do
+  Mongo::Connection.should_receive(:new).and_raise(Mongo::ConnectionFailure)
+
+  MongoCache.db_installed?.should == false
+end
+
+I needed to use this to mock an environment where MongoDB is not installed.  I think my RSpec tests are looking better.  I know some people are against mocking/stubbing and I'd like to find out why.  Perhaps, excessive use of it can be bad or if you default to using mocks/stubs where a test can easily be written without them.  I'll have to do some more reading.
