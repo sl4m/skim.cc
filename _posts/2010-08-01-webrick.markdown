@@ -18,6 +18,7 @@ Today, I did a bit of research on WEBrick, an HTTP server library that is part o
 * [Eric Hodel's WEBrick articles](http://segment7.net/projects/ruby/WEBrick/index.html)
 * [WEBrick rdoc](http://www.ruby-doc.org/stdlib/libdoc/webrick/rdoc/)
 * [WEBrick (down at this time)](http://webrick.org/)
+* [ERB rdoc](http://www.ruby-doc.org/stdlib/libdoc/erb/rdoc/classes/ERB.html)
 
 ## TTT Configuration Story
 
