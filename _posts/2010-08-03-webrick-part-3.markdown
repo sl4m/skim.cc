@@ -1,7 +1,7 @@
 ---
 layout: post
 title: webrick - part 3
-date: 2010-08-02 23:59:00 -05:00
+date: 2010-08-03 23:59:00 -05:00
 categories:
   -- software craftsmanship
   -- ruby
