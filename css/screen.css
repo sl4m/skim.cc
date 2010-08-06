@@ -4,12 +4,12 @@ body{
   font-size: 17px;
   line-height: 1.7em;
   margin: 0;
+        -webkit-font-smoothing: antialiased;
 }
 a{
   color: #3B3A40;
 }
 a:hover{
-  color: #3B3A40;
   text-decoration: none;
 }
 p code{
