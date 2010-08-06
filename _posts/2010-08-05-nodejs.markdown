@@ -130,7 +130,7 @@ I look forward to today's session with Jim.  We're going to learn about [vows.js
 
 ## Book Reading
 
-Unfortunately I have been putting my book reading to the side to finish up the stories in the past couple of iterations, but I'm going to dedicate reading every night.  The current books I'm reading are [The Well Grounded Rubyist](http://www.amazon.com/Well-Grounded-Rubyist-David-Black/dp/1933988657), [The RSpec Book](http://www.amazon.com/RSpec-Book-Behaviour-Development-Cucumber/dp/1934356379), [Refactoring](http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672).  I've used Ruby for a couple of months straight, so when I picked up The Well Grounded Rubyist again, it was a good feeling when I already knew some of the content I was reading.
+Unfortunately I have been putting my book reading to the side to finish up the stories in the past couple of iterations, but I'm going to dedicate reading every night.  The current books I'm reading are [The Well Grounded Rubyist](http://www.amazon.com/Well-Grounded-Rubyist-David-Black/dp/1933988657), [The RSpec Book](http://www.amazon.com/RSpec-Book-Behaviour-Development-Cucumber/dp/1934356379), [Refactoring](http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672).  I've used Ruby for a couple of months straight now, so when I picked up The Well Grounded Rubyist again, it was a good feeling when I already knew some of the content I was reading.
 
 In the months to come I plan to read these books (stolen ideas from Colin's wonderful [blog](http://softwareapprenticeship.wordpress.com/)):
 
