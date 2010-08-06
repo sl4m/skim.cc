@@ -13,6 +13,8 @@ I worked on my Node.js homework throughout last night for 8th Light University, 
 
 Here is the code for the Node.js homework.  It's spiked, so it looks a bit messy, but it does work.
 
+*Note:* This was developed using Node.js version *0.1.103*
+
 {% highlight javascript %}
 var sys,
     url,
