@@ -1,0 +1,140 @@
+---
+layout: post
+title: node.js homework
+date: 2010-08-05 12:00:00 -05:00
+categories:
+  -- software craftsmanship
+  -- javascript
+  -- nodejs
+  -- webrick  
+---
+
+I worked on my Node.js homework throughout last night for 8th Light University, so I apologize for writing this post now.  As you may have read last week, [Jim](http://twitter.com/jsuchy) is currently leading the 8LU session on Node.js.  He assigned us homework to create a Node.js server that will talk to services like Flickr, GitHub, Twitter, Facebook, or locally like the file system.  I decided to have my server talk to GitHub using their [API](http://develop.github.com/) and return back a list of repositories for a specific user.  There were some painful moments along the way, but I learned a lot from this assignment that will definitely help get through a roadblock I have now with WEBrick.  It's my lack of GET/POST knowledge and fully understanding how the server communicates with the client.  So fortunately, coming out of finishing the homework, I have better understanding and will be able to press forward with the WEBrick stories.
+
+Here is the code for the Node.js homework.  It's spiked, so it looks a bit messy, but it does work.
+
+{% highlight javascript %}
+var sys,
+    url,
+    querystring,
+    http,
+    searchUser,
+    listRepos,
+    postHandler;
+sys = require('sys');
+url = require('url');
+querystring = require('querystring');
+http = require("http");
+
+searchUser = function(req, res) {
+  res.writeHead(200, {'Content-Type': 'text/html'});
+  res.write('<form action="/result" method="post">' +
+      'GitHub user: <input type="text" name="github_user">' +
+      '<input type="submit" value="Search"></form>');
+  res.end();
+};
+
+listRepos = function(req_data, res) {
+  var user,
+      github,
+      headers,
+      request;
+
+  user = req_data.github_user;
+  github = http.createClient(80, "github.com");
+  headers = {
+    'host':'github.com',
+    "User-Agent": "NodeJS HTTP Client",
+    "Content-Length": "0"
+  };
+  request = github.request("GET", "/api/v2/json/repos/show/" + user, headers);
+
+  request.addListener('response', function(response) {
+    if (response.statusCode > 200) {
+      res.writeHead(response.statusCode, {'Content-Type': 'text/plain'});
+      res.write("No user found.")
+      res.end();
+      return;
+    }
+    response.setEncoding('utf8');
+    var responseBody = [];
+
+    response.addListener("data", function(chunk) {
+      responseBody.push(chunk);
+    });
+
+    response.addListener("end", function() {
+      res.writeHead(200, {'Content-Type': 'text/html'});
+      var repos,
+          repoNames,
+          i,
+          max,
+          repoObj;
+
+      repoNames = '';
+      repos = JSON.parse(responseBody.join(""));
+      //repos = querystring.parse(responseBody.join(""));
+      //console.log(sys.inspect(repos));
+      max = repos["repositories"].length;
+      for (i=0; i<max; i+=1) {
+        repoObj = repos["repositories"][i];
+        repoNames += '<strong><a href=' + repoObj["url"] + '>' + repoObj["name"] + '</a></strong><br />'
+      }
+
+      res.write("<h1>" + user + ' has ' + repos["repositories"].length + 
+        " repositories:</h1><br /><hr>" + repoNames);
+      res.end();
+    });
+  });
+  request.end();
+};
+
+postHandler = function(req, res, callback) {
+  var _request,
+      _content;
+  _request = {};
+  _content = '';
+
+  if (req.method == "POST") {
+    req.addListener('data', function(chunk) {
+      _content += chunk;
+    });
+    req.addListener('end', function() {
+      _request = querystring.parse(_content);
+      return callback(_request, res);
+    });
+  }
+};
+
+http.createServer(function (req, res) {
+  switch (url.parse(req.url)["pathname"]) {
+  case '/':
+    searchUser(req, res);
+    break;
+  case '/result':
+    postHandler(req, res, function(req_data, res) {
+      listRepos(req_data, res);
+    });
+    break;
+  }
+}).listen(6633)
+
+console.log('Server running at http://localhost:6633');
+{% endhighlight %}
+
+I couldn't figure out how to handle form data.  Luckily, someone posted on [how to do this](http://www.toxiccoma.com/random/nodejs-0195-http-post-handling-of-form-data).  Kudos for his work.  Also, I had a bit of trouble understanding how to GET data from GitHub using the API, so I looked at this [node-github](http://github.com/ajaxorg/node-github) library to get some ideas on how to do it.  It looks like a nice library and I definitely got the information I needed, but I didn't want to use it for the sake of understanding Node.js.
+
+I look forward to today's session with Jim.  We're going to learn about [vows.js](http://vowsjs.org/), an asynchronous BDD framework for Node.js.  Four of the 8th Lighters including myself will be participating in this month's [Node.js knockout](http://nodeknockout.com/).  I look forward to learning a lot of Node.
+
+## Books Reading
+
+Unfortunately I have been putting my book reading to the side to finish up the stories in the past couple of iterations, but I'm going to dedicate reading every night.  The current books I'm reading are [The Well Grounded Rubyist](http://www.amazon.com/Well-Grounded-Rubyist-David-Black/dp/1933988657), [The RSpec Book](http://www.amazon.com/RSpec-Book-Behaviour-Development-Cucumber/dp/1934356379), [Refactoring](http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672).  I've used Ruby for a couple of months straight, so when I picked up The Well Grounded Rubyist again, it was a good feeling when I already knew some of the content I was reading.
+
+In the months to come I plan to read these books (stolen ideas from Colin's wonderful [blog](http://softwareapprenticeship.wordpress.com/)):
+
+* [Agile Software Development: Principles, Patterns, and Practices](http://www.amazon.com/Software-Development-Principles-Patterns-Practices/dp/0135974445)
+* [Clean Code](http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
+* [Effectively Working with Legacy Code](http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052)
+* [SICP](http://www.amazon.com/Structure-Interpretation-Computer-Programs-Engineering/dp/0262011530)
+
+Happy reading!
