@@ -126,7 +126,7 @@ I couldn't figure out how to handle form data.  Luckily, someone posted on [how 
 
 I look forward to today's session with Jim.  We're going to learn about [vows.js](http://vowsjs.org/), an asynchronous BDD framework for Node.js.  Four of the 8th Lighters including myself will be participating in this month's [Node.js knockout](http://nodeknockout.com/).  I look forward to learning a lot of Node.
 
-## Books Reading
+## Book Reading
 
 Unfortunately I have been putting my book reading to the side to finish up the stories in the past couple of iterations, but I'm going to dedicate reading every night.  The current books I'm reading are [The Well Grounded Rubyist](http://www.amazon.com/Well-Grounded-Rubyist-David-Black/dp/1933988657), [The RSpec Book](http://www.amazon.com/RSpec-Book-Behaviour-Development-Cucumber/dp/1934356379), [Refactoring](http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672).  I've used Ruby for a couple of months straight, so when I picked up The Well Grounded Rubyist again, it was a good feeling when I already knew some of the content I was reading.
 
