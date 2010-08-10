@@ -20,13 +20,6 @@ From these articles, I keep noticing the Mutex class being used to handle multit
 
 {% highlight ruby %}
 @@instance = nil
-@@instance\_creation\_mutex = Mutex.new
-
-def self.get\_instance config, \*options
-  @@instance\_creation\_mutex.synchronize {
-    @@instance = @@instance || self.new(config, \*options)
-  }
-end
 {% endhighlight %}
 
 What I found out through trial and error is that on every refresh, a new servlet instance is created.  Since a new one is created, the old one is lost and I'm no longer able to keep track of the game state.  I've not ever used class instance variables before and I've not so good things about it.  However, I can't think of a better way to resolve the problem (and without using global variables).
