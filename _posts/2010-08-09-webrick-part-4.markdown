@@ -16,14 +16,7 @@ I scoured the interwebs again to find information on WEBrick and I ended up find
 * [Running Servlets with WEBrick](http://codeidol.com/other/rubyckbk/Internet-Services/Running-Servlets-with-WEBrick/)
 * [Basic WEBrick setup](http://snippets.dzone.com/tag/webrick)
 
-From these articles, I keep noticing the Mutex class being used to handle multithreading situations.  I put the synchronize code block in my code, but I'm pretty I won't run into the problem.  Inside the synchronize block, however, I'm going to need.
-
-{% highlight ruby %}
-@@instance = nil
-@@instance_creation_mutex = Mutex.new
-
-def self.get_instance config, *options
-{% endhighlight %}
+From these articles, I keep noticing the Mutex class being used to handle multithreading situations.  I put the synchronize code block in my code, but I'm pretty I won't run into the problem.  Inside the synchronize block, however, I'm going to need.  See [here](http://gist.github.com/516463) (since pygments is giving me a hard time with this code).
 
 What I found out through trial and error is that on every refresh, a new servlet instance is created.  Since a new one is created, the old one is lost and I'm no longer able to keep track of the game state.  I've not ever used class instance variables before and I've not so good things about it.  However, I can't think of a better way to resolve the problem (and without using global variables).
 
