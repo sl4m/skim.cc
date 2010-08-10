@@ -20,10 +20,10 @@ From these articles, I keep noticing the Mutex class being used to handle multit
 
 {% highlight ruby %}
 @@instance = nil
-@@instance_creation_mutex = Mutex.new
+@@instance\_creation\_mutex = Mutex.new
 
-def self.get_instance config, \*options
-  @@instance_creation_mutex.synchronize {
+def self.get\_instance config, \*options
+  @@instance\_creation\_mutex.synchronize {
     @@instance = @@instance || self.new(config, \*options)
   }
 end
