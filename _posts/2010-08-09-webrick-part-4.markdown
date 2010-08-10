@@ -8,7 +8,7 @@ categories:
   -- webrick
 ---
 
-I made some small breakthroughs today on WEBrick.  First, I figured out how to make moves using the image-based links.  Simple enough, the links return back to the BoardServlet via GET.  Now I just need to figure out a way to block the user when it's the computer's turn.  I guess I won't know until I get to that point, but it's a good starting point to the story, "Allow the user to click on a square to make a move."
+I made some small breakthroughs today on WEBrick.  First, I figured out how to make moves using the image based links.  Simple enough, the links return back to the BoardServlet via GET.  Now I just need to figure out a way to block the user when it's the computer's turn.  I guess I won't know until I get to that point, but it's a good starting point to the story, "Allow the user to click on a square to make a move."
 
 I scoured the interwebs again to find information on WEBrick and I ended up finding some good articles.
 
@@ -19,14 +19,14 @@ I scoured the interwebs again to find information on WEBrick and I ended up find
 From these articles, I keep noticing the Mutex class being used to handle multithreading situations.  I put the synchronize code block in my code, but I'm pretty I won't run into the problem.  Inside the synchronize block, however, I'm going to need.
 
 {% highlight ruby %}
-  @@instance = nil
-  @@instance_creation_mutex = Mutex.new
+@@instance = nil
+@@instance_creation_mutex = Mutex.new
 
-  def self.get_instance config, *options
-    @@instance_creation_mutex.synchronize {
-      @@instance = @@instance || self.new(config, *options)
-    }
-  end
+def self.get_instance config, *options
+  @@instance_creation_mutex.synchronize {
+    @@instance = @@instance || self.new(config, *options)
+  }
+end
 {% endhighlight %}
 
 What I found out through trial and error is that on every refresh, a new servlet instance is created.  Since a new one is created, the old one is lost and I'm no longer able to keep track of the game state.  I've not ever used class instance variables before and I've not so good things about it.  However, I can't think of a better way to resolve the problem (and without using global variables).
