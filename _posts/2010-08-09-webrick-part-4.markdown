@@ -22,9 +22,9 @@ From these articles, I keep noticing the Mutex class being used to handle multit
 @@instance = nil
 @@instance_creation_mutex = Mutex.new
 
-def self.get_instance config, *options
+def self.get_instance config, \*options
   @@instance_creation_mutex.synchronize {
-    @@instance = @@instance || self.new(config, *options)
+    @@instance = @@instance || self.new(config, \*options)
   }
 end
 {% endhighlight %}
