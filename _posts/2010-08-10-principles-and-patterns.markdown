@@ -12,7 +12,7 @@ categories:
 
 I'm beginning to notice a trend in the types of stories Micah assigns each iteration.  Every story seems to challenge the architecture and design of my Tic Tac Toe project.  Conveniently, I came across Uncle Bob's article on [Principles and Patterns](http://www.objectmentor.com/resources/articles/Principles_and_Patterns.pdf) that I'd like to share in this blog post.
 
-Uncle Bob lists four primary symptoms that indicate rotting designs.  Unfortunately, this is probably why some stories take longer than it should.
+Uncle Bob lists four primary symptoms that indicate rotting designs.  Unfortunately, this is probably why some stories take longer than they should.
 
 ## Rigidity
 
