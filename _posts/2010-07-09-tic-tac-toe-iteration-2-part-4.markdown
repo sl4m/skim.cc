@@ -7,7 +7,7 @@ categories:
   -- refactoring
 ---
 
-Eric Smith continued Lunch n' Learn on OpenGL covering topics on 2D textures and different types of lighting.  Before that, Eric demoed everyone's homework and mine looked nothing like the other 8th Lighters who put a lot more effort into the code.  I had trouble figuring out what each function call meant and where to look for examples, not to mention trying to work the problem at the last minute.  Since we don't have new homework for next week, I plan to continue working on what I have to make it more 3D and include some lighting elements.
+Eric Smith continued Lunch 'n Learn on OpenGL covering topics on 2D textures and different types of lighting.  Before that, Eric demoed everyone's homework and mine looked nothing like the other 8th Lighters who put a lot more effort into the code.  I had trouble figuring out what each function call meant and where to look for examples, not to mention trying to work the problem at the last minute.  Since we don't have new homework for next week, I plan to continue working on what I have to make it more 3D and include some lighting elements.
 
 ![OpenGL Demo](/images/opengl_example.jpg)
 

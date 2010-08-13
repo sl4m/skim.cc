@@ -7,9 +7,9 @@ categories:
   -- refactoring
 ---
 
-*Note:* In my previous posts, I called 8th Light's Fridays, "open door Fridays" where in fact it's actually called "Lunch N Learn".  
+*Note:* In my previous posts, I called 8th Light's Fridays, "open door Fridays" where in fact it's actually called "Lunch 'n Learn".  
 
-It was my turn to pick up lunch for Lunch N Learn (Li-Hsuan and I switch every week), so I was a bit occupied in the morning.  [Eric Smith](http://twitter.com/paytonrules) continued with the OpenGL class and touched on perspective projections, rotations, matrices, and more.  Some of it is still over my head, but I think a little bit of reading in the tutorials [here](http://nehe.gamedev.net/) will yield some good information.  Our homework assignment due next Friday is to:
+It was my turn to pick up lunch for Lunch 'n Learn (Li-Hsuan and I switch every week), so I was a bit occupied in the morning.  [Eric Smith](http://twitter.com/paytonrules) continued with the OpenGL class and touched on perspective projections, rotations, matrices, and more.  Some of it is still over my head, but I think a little bit of reading in the tutorials [here](http://nehe.gamedev.net/) will yield some good information.  Our homework assignment due next Friday is to:
 
 * take our existing model and render it using perspective projection
 * make more than one appear on screen in different places, sizes, rotations
