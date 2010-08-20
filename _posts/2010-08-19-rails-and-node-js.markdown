@@ -15,13 +15,13 @@ Today, Matt and I briefly worked on the Rails project.  We added a configuration
 I updated [my post](http://skim.la/2010/06/28/git-branching-and-merging) on git branching and merging.  Basically, I needed to execute this command:
 
 {% highlight text %}
-git push origin origin:refs/heads/new\_branch
+git push origin origin:refs/heads/new_branch
 {% endhighlight %}
 
 Once I created the new remote branch, I was able to create a local branch, have it tracked with the remote branch, and check it out, all in a one-liner command:
 
 {% highlight text %}
-git checkout --track -b new\_branch origin/new\_branch
+git checkout --track -b new_branch origin/new_branch
 {% endhighlight %}
 
 Bingo!  New branch is tracked, and I'm able to push and pull without stating the additional parameters: repository and refspec.
