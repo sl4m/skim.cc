@@ -30,7 +30,7 @@ The first one sounds like the layman's terms for saying manage your dependencies
 
 Program to an interface, not an implementation is Dependency Inversion principle which says to "depend on abstractions, not on concretions."
 
-I knew about composition and applied it to my Tic Tac Toe project, but did not know it was the word to describe it.  Delegation is something new to me.  I didn't know this was allowed per se.  It's where you have one class, say Car and an Engine class.  You create an instance of the Engine class inside the Car class and the methods start\_engine and stop\_engine simply call the Engine instance's methods.
+I knew about composition and applied it to my Tic Tac Toe project, but did not know it was the word to describe it.  Delegation is something new to me.  I didn't know this was allowed per se.  It's where you have one class, say Car and an Engine class.  You create an instance of the Engine class inside the Car class and the methods start\_engine and stop\_engine simply call the Engine instance methods.
 
 From delegation, I read about [Law of Demeter](http://en.wikipedia.org/wiki/Law_of_Demeter) which Craig threw out yesterday in one of our conversations.  Then I quickly [read about the Presenter pattern](http://blog.jayfields.com/2007/02/ruby-forwardable-addition.html) which uses [Forwardable](http://ruby-doc.org/stdlib/libdoc/forwardable/rdoc/index.html) to delegate and not violate the Law of Demeter.
 
