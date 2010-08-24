@@ -10,7 +10,7 @@ categories:
   -- i18n
 ---
 
-"Accept that there will be some things that you’re not good at, or that would require a disproportionate investment of time and effort in order to make a small improvement." - Apprenticeship Patterns, [Learn How You Fail](http://apprenticeship-patterns.labs.oreilly.com/ch05.html#learn_how_you_fail)
+> "Accept that there will be some things that you’re not good at, or that would require a disproportionate investment of time and effort in order to make a small improvement." - Apprenticeship Patterns, [Learn How You Fail](http://apprenticeship-patterns.labs.oreilly.com/ch05.html#learn_how_you_fail)
 
 ## Stories Not Delivered
 

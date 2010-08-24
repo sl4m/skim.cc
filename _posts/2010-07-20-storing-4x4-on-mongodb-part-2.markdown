@@ -9,7 +9,7 @@ categories:
   -- ruby
 ---
 
-"If you count something interesting, you will learn something interesting" \- Apprenticeship Patterns, [Create Feedback Loops](http://apprenticeship-patterns.labs.oreilly.com/ch05.html#create_feedback_loops)
+> "If you count something interesting, you will learn something interesting" \- Apprenticeship Patterns, [Create Feedback Loops](http://apprenticeship-patterns.labs.oreilly.com/ch05.html#create_feedback_loops)
 
 ## Writing to MongoDB Fail
 
