@@ -1,6 +1,6 @@
 ---
 layout: post
-title: rails and node.js - part two
+title: rails and node.js - part 3
 date: 2010-08-24 23:00:00 -05:00
 categories:
   -- software craftsmanship
