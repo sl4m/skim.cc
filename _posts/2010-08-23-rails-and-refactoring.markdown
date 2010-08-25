@@ -17,7 +17,7 @@ Matt and I continued working on the Rails project adding another feature to send
 The feature called creating new column to an existing table.  Luckily with Rails conventions, it's a rather simple process:
 
 {% highlight text %}
-cript/generate migration AddNewColumnToTable new_column:string
+[some_branch][~/local/git/some_repo] script/generate migration AddNewColumnToTable new_column:string
       exists  db/migrate
       create  db/migrate/20100823165501_add_new_column_to_table.rb
 {% endhighlight %}
