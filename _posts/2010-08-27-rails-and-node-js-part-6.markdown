@@ -1,7 +1,7 @@
 ---
 layout: post
 title: rails and node.js - part 6
-date: 2010-08-26 17:00:00 -05:00
+date: 2010-08-27 17:00:00 -05:00
 categories:
   -- software craftsmanship
   -- ruby
