@@ -1,6 +1,6 @@
 ---
 layout: post
-title: node.js knockout aftermath
+title: rails demo to customer
 date: 2010-08-30 23:59:00 -05:00
 categories:
   -- software craftsmanship
