@@ -21,7 +21,7 @@ def read_cookie(name)
 end 
 {% endhighlight %}
 
-The invaluable WEBrick documentation Eric Hodel's [website]() explained how cookies are retrieved and set:
+The invaluable WEBrick documentation at Eric Hodel's [website]() explained how cookies are retrieved and set:
 
 > Cookies are read in by WEBrick::HTTPRequest automatically, and are available as an Array from HTTPRequest#cookies. Cookies may be appended to the HTTPResponse#cookies Array when creating a WEBrick::HTTPResponse.
 
