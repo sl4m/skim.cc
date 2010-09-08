@@ -46,5 +46,5 @@ Fortunately, the latter way is better because it allows me to use a FileHandler 
 I plan to create a callback method to create the cookie when the user is on the home page.  This is all still an idea in my head, so I'll need to work on the implementation tomorrow.  Will post updates then.
 
 {% highlight ruby %}
-@server.mount("/", HTTPServlet::FileHandler, @document_root, :HandlerCallback => callback_method
+@server.mount("/", HTTPServlet::FileHandler, @document_root, :HandlerCallback => callback_method)
 {% endhighlight %}
