@@ -1,0 +1,45 @@
+---
+layout: post
+title: rails 3 woes
+date: 2010-09-14 15:00:00 -05:00
+categories:
+  -- software craftsmanship
+  -- ruby
+  -- tic tac toe
+  -- rails
+---
+
+## Rails 3 Woes
+
+It was an honorable day of yak shaving yesterday.  I read bits and pieces of Jeremy McAnally's [Rails 3 Upgrade Handbook](http://www.railsupgradehandbook.com/), official [Rails 3 Guide](http://edgeguides.rubyonrails.org/), [Rails 3 Tutorial](http://railstutorial.org/book), [Rspec-Rails](http://github.com/rspec/rspec-rails), watched some of the official [Rails 3 screencasts](http://rubyonrails.org/screencasts/rails3), and Google searched aplenty.  I ran into some issues which I'd like to share with you.
+
+### RSpec 2
+
+RSpec 2 is required for Rails 3.  The latest version as of this writing is RSpec 2 Beta 22 which was released a couple of days ago.  Unfortunately, I could not get it to generate specs when generating controllers.  The [instructions](http://github.com/rspec/rspec-rails#readme) are well written, but it doesn't want to generate specs for me.  This was also after trying to figure out how to make RSpec work when not using Bundler.  I thought since Rails 3 is more modular and agnostic, I could generate a Rails app without Bundler and without Active Record.  This way, I can focus on the other newer features and learn Bundler later.  
+
+*Note:* If you decide to *not* use Bundler in your Rails app, you'll have to *require 'rspec-rails' somewhere for the development and test environments.  Apparently, when including it in the Gemfile, it automatically requires it.
+
+I decided to delete the Rails project and generate a new Rails app with default options.  While it still didn't generate the specs for controllers, I didn't want to run into potential issues that I have not run into.
+
+### Action Dispatch - nothing new for cookies
+
+It was not easy to find information about Action Dispatch and to see if there were any changes to the way you access in cookies in Rails 3.  None of the freely available guides talked much about it in detail, so I used Rails 2.x information in the third edition of Rails from PragProg.  Similar to WEBrick, all cookies are stored in a collection: WEBrick uses an array, but Rails uses a hash.  The reading and writing to the cookies is as easy as:
+
+{% highlight ruby %}
+class CookiesController < ApplicationController
+  def action_one
+    cookies[:the_time] = Time.now.to_s
+    redirect_to :action => "action_two"
+  end
+  def action_two
+    cookie_value = cookies[:the_time]
+    render(:text => "The cookie says it is #{cookie_value}")
+  end
+end
+{% endhighlight %}
+
+### Including TTT Game Engine without duplicating code
+
+I still need to figure out how to include the TTT Game Engine without duplicating the code.  It currently resides in the game\_engine folder as well as inside the Rails 3 app.  For now this will work, but I need to figure out a better way.
+
+I'll talk more woes later today.
