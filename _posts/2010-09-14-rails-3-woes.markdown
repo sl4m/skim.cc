@@ -17,7 +17,7 @@ It was an honorable day of yak shaving yesterday.  I read bits and pieces of Jer
 
 RSpec 2 is required for Rails 3.  The latest version as of this writing is RSpec 2 Beta 22 which was released a couple of days ago.  Unfortunately, I could not get it to generate specs when generating controllers.  The [instructions](http://github.com/rspec/rspec-rails#readme) are well written, but it doesn't want to generate specs for me.  This was also after trying to figure out how to make RSpec work when not using Bundler.  I thought since Rails 3 is more modular and agnostic, I could generate a Rails app without Bundler and without Active Record.  This way, I can focus on the other newer features and learn Bundler later.  
 
-*Note:* If you decide to *not* use Bundler in your Rails app, you'll have to *require 'rspec-rails' somewhere for the development and test environments.  Apparently, when including it in the Gemfile, it automatically requires it.
+*Note:* If you decide to *not* use Bundler in your Rails app, you'll have to *require 'rspec-rails'* somewhere for the development and test environments.  Apparently, when including it in the Gemfile, it automatically requires it.
 
 I decided to delete the Rails project and generate a new Rails app with default options.  While it still didn't generate the specs for controllers, I didn't want to run into potential issues that I have not run into.
 
