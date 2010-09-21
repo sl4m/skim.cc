@@ -11,7 +11,7 @@ categories:
 
 *Note:* I took some time off, and now I'm back in action.
 
-I tried reading Effective Java, but quickly realized I needed to step back and re-read the basics.  So it was a good thing Colin mentioned another book, Agile Java.  When I briefly read the first chapter, I knew this was the book to start out.  Here are some notes so thus far.
+I tried reading Effective Java, but quickly realized I needed to step back and re-read the basics.  So it was a good thing Colin mentioned another book, Agile Java.  When I briefly read the first chapter, I knew this was the book to start out.  Here are some notes thus far.
 
 ### Java is included in Mac OS X by default
 
