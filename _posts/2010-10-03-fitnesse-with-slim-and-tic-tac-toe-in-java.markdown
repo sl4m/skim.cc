@@ -31,8 +31,6 @@ My Tic Tac Toe in Java implementation is complete.  The time I lost working more
 
 {% highlight java %}
 
-// MockPrintStream.java
-
 public ByteArrayInputStream createInputStream(String string)
 {
   return new ByteArrayInputStream(string.getBytes());
@@ -48,6 +46,9 @@ public StdUI createStdUI(String string)
 #### StdOut mocking
 
 {% highlight java %}
+
+// MockPrintStream.java
+
 import java.io.PrintStream;
 
 public class MockPrintStream extends PrintStream
