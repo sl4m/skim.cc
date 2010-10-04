@@ -49,7 +49,7 @@ This was a brand new problem for me in Rails.  As I've said in the beginning of 
 <%= options_for_board.html_safe %>
 {% endhighlight %}
 
-What I should realy do is take advantage of Rails tag helpers and some CSS.  As [Craig](http://twitter.com/demmer12) pointed out, the mouse events that I've implemented in JavaScript can be done in CSS.  If only I had some more time, I could try it with CSS...
+What I should really do is take advantage of Rails tag helpers and some CSS.  As [Craig](http://twitter.com/demmer12) pointed out, the mouse events that I've implemented in JavaScript can be done in CSS.  If only I had some more time, I could try it with CSS...
 
 ## Protect from Forgery
 
