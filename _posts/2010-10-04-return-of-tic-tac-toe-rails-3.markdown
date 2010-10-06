@@ -34,4 +34,4 @@ I had an issue running the console version of the game via Ruby 1.9.2.  It had s
 
 ## To be continued
 
-I still need to test drive the model, but I should good to go for the deadline.  More on that tomorrow.
+I still need to test drive the model, but I should be good to go for the deadline.  More on that tomorrow.
