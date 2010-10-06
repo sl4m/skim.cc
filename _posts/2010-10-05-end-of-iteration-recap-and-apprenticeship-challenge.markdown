@@ -37,4 +37,4 @@ Finally, Tic Tac Toe in Rails 3 was a nice story to work on.  I skimmed (no pun 
 
 ## Apprenticeship Challenge
 
-My apprenticeship challenge is to write an HTTP server that will serve default MIME types as well as parsing GET request params.  More on that this week.
+My apprenticeship challenge is to write an HTTP server that will serve default MIME types as well as parse GET request params.  More on that this week.
