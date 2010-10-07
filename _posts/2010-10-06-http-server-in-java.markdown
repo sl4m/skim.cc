@@ -72,7 +72,7 @@ I tried connecting to the time server using the browser and to my surprise, it d
                        [ message-body ]          ; Section 7.2
 {% endhighlight %}
 
-#### Request Protocol
+### Request Protocol
 
 It has three components:
 
