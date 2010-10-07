@@ -14,7 +14,7 @@ Today was a continuation of this week's Limelight project; understanding how to 
 
 I had trouble getting those comboboxes appear in the "scene".  My fellow apprentice mate, Li-Hsuan, handed down good advice and told me to create a new production and just add the comboboxes.  Lo and behold, it worked.  I've been taking notes as I read along and work out example code.  This is a short version of it:
 
-*Hierarchical view of a Limelight production*
+#### Hierarchical view of a Limelight production
 
 {% highlight text %}
 production (process)
@@ -30,14 +30,14 @@ production (process)
          -- players (events)
 {% endhighlight %}
 
-*Limelight DSLs*
+#### Limelight DSLs
 
 * ProductionBuilder
 * StageBuilder
 * PropBuilder
 * StylesBuilder
 
-*Built-in Players*
+#### Built-in Players
 
 * button
 * check_box

@@ -12,7 +12,7 @@ categories:
 
 The project you thought would end, continues this week with a new challenge; I am to a build a UI interface for my Tic Tac Toe program (instead of stdin/stdout).  Micah wants me to use 8th Light's very own [Limelight](http://limelight.8thlight.com/).  It's an open source, platform independent, rich client GUI framework.  It uses unique theatre metaphors (e.g., productions, scenes, props, players), similar to the [MVC design pattern](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller), for the sake of entertaining developers - build productions, not applications to "razzle-dazzle" the audience.  [Limelight](http://en.wikipedia.org/wiki/Limelight) itself means a type of stage lighting once used in theatres and music halls.  Also the name contains ["light"](http://limelightwiki.8thlight.com/wiki/A_Cook%27s_Tour_of_Limelight#Theater_Metaphor).  Pretty clever.  All productions are written using Ruby and are interpreted using [JRuby](http://jruby.org/).
 
-*Getting Started*
+## Getting Started
 
 I installed JRuby using [RVM](http://rvm.beginrescueend.com/) and proceeded to install the limelight gem.  I then created my very first Limelight production using the following command (note: my production name is limelight_test) :
 

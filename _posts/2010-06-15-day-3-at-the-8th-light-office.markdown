@@ -15,7 +15,7 @@ I was a bit embarassed when he ran the program and was able to place a mark (e.g
 
 We went over what [polymorphism](http://en.wikipedia.org/wiki/Polymorphism_in_object-oriented_programming) is and how it plays a role in Ruby and my program.  Unlike other languages where polymorphism requires the use of inheritance and/or interface, Ruby allows polymorphism without it.
 
-"Duck typing is a style of dynamic typing in which an object's current set of methods and properties determines the valid semantics, rather than its inheritance from a particular class or implementation of a specific interface." -- [Wikipedia](http://en.wikipedia.org/wiki/Duck_typing) 
+> "Duck typing is a style of dynamic typing in which an object's current set of methods and properties determines the valid semantics, rather than its inheritance from a particular class or implementation of a specific interface." -- [Wikipedia](http://en.wikipedia.org/wiki/Duck_typing) 
 
 On the whiteboard, we went over the min max algorithm which I still had trouble picturing in my mind.  After Micah carefully showed me examples after examples, it became clear what I needed to do - write a recursive function which builds out the tree and evaluates each node in the tree.  While I haven't had a chance to work on the min max method, I put a lot of time refactoring my program with the help of my fellow apprentice [Li-Hsuan](http://twitter.com/Li_Hsuan). 
 

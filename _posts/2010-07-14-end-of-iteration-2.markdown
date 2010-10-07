@@ -8,7 +8,7 @@ categories:
   -- nosql
 ---
 
-*NoSQL spike*
+## NoSQL spike
 
 Today I looked over some of the NoSQL data stores out there, specifically, Redis, CouchDB, and MongoDB.  In the end, I chose MongoDB to store the possible moves for the 4x4 board.  Why MongoDB?  Just personal preference.  I said yesterday I wouldn't use it because I didn't have any available 8th Lighters to help me, but honestly the docs out there are well written and give you all the information you need to get started.
 
@@ -99,7 +99,7 @@ There are 3 records in the test collection. Here they are:
 
 I didn't get much further than that.  I will be working on the MongoDB Ruby Koans tomorrow to get a better understanding of MongoDB and usage patterns.
 
-*End of Iteration 2 Meeting*
+## End of Iteration 2 Meeting
 
 I sat down with Micah (customer) to go over the two stories I was assigned for Iteration 2:
 

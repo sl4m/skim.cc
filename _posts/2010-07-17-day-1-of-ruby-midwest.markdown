@@ -31,7 +31,7 @@ Projects that work
 * DJango
 * Unicorn
 
-*JRuby by Charles Nutter*
+### JRuby by Charles Nutter
 
 Lately I've been using JRuby for my Tic Tac Toe project, so this talk was useful.  Here are my notes from the talk:
 
@@ -71,7 +71,7 @@ There are two [Ruby Summer of Code](http://rubysoc.org/) projects that are contr
 
 Blog posts on jmap/jhat, VisualVM here: [[1](http://blog.headius.com/2010/07/browsing-memory-jruby-way.html)][[2](http://blog.headius.com/2010/07/finding-leaks-in-ruby-apps-with-eclipse.html)]
 
-*Unobtrusive CSS by John Hwang*
+### Unobtrusive CSS by John Hwang
 
 I'm a CSS noob, so this was a nice opener to CSS and understanding the underlying problems people experience with plain CSS.  There are CSS frameworks, semantic/meta frameworks that try to resolve the problems in CSS:
 
@@ -118,15 +118,15 @@ With meta frameworks like Sass, you can build unobtrusive stylesheets which allo
 * flexibility for theming and alternate stylesheets
 * easier redesigns
 
-##Lightning Talks
+## Lightning Talks
 
 During the [OMGWTF BBQ](http://omgwtfbbq.heroku.com/), there were 7 or 8 lightning talks.
 
-*Mirah by Charles Nutter*
+#### Mirah by Charles Nutter
 
 [Mirah](http://www.mirah.org/) (formerly Duby) is a new programming language that allows you write code that looks syntactically like Ruby, but compiles down to fast JVM bytecode.  Charlie ([@headius](http://twitter.com/headius))gave a couple of performance examples.  Mirah was pretty fast compared to Ruby MRI.  I look forward to seeing this project grow and plan to try it out in the near future.
 
-*Fog by Wesley Beary*
+#### Fog by Wesley Beary
 
 Wesley ([@geemus](http://twitter.com/geemus)) presented his cloud computing gem that helps interact with cloud services easily.  It currently supports the following cloud-based services:
 
