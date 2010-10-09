@@ -26,6 +26,8 @@ public void listen()
 }
 {% endhighlight %}
 
+### SocketException
+
 This Java exception bit me in the dust today: SocketException.  According to the Javadoc, when ServerSocket's close method is called while any thread is currently blocked by the accept method, it will throw the SocketException.  When I was testing SocketService, I had this exception thrown, but could not figure out what was throwing it.  Javadoc is your friend.  I caught the exception and moved on.  Fortunately, Micah had some time to pair with me.  We were able to finish the implementation of the SocketService.  I went over what I needed to finish and he seemed to agree with everything I said.
 
 ### HTTPHandler: Request and Response
