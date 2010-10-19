@@ -1,7 +1,7 @@
 ---
 layout: post
 title: revisiting solid principles
-date: 2010-10-19 10:30:00 -05:00
+date: 2010-10-19 09:30:00 -05:00
 categories:
   -- design patterns
   -- tic tac toe
