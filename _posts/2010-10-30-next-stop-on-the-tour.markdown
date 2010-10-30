@@ -19,6 +19,7 @@ Craig continued his git series by talking in depth about a lot of git commands. 
 * commit stuff on new\_branch
 * checkout master and pull changes
 * checkout new\_branch and rebase master on top of new\_branch
+* checkout master and rebase new\_branch on top of master
 * push changes
 * delete new\_branch
 
