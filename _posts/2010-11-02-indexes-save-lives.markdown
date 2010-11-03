@@ -17,7 +17,7 @@ Tomorrow, I plan to work with Eric Smith.
 
 Justin Love presented his talk on [AMP](http://amp.carboni.ca/), a cross\-repo version source control in Ruby.  AMP is basically a one\-stop shop Ruby front end solution to two major distributed VCS: Mercurial and git.  At least, that's the idea for the upcoming project.  The original John Locke version only supports Mercurial because the developers ran into some roadblocks with git.  Since Mercurial is GPL licensed, the developers ported Mercurial to AMP and also licensed it as GPL.  The next version of AMP called AMP Redux (pronounced 'redo') will separate interface and implementation and support both Mercurial and git.  They've learned a lot from the process of creating the John Locke version and currently creating AMP Redux.
 
-#### Why use AMP (or why another VCS)?
+### Why use AMP (or why another VCS)?
 
 Justin Love listed the major VCS out there (e.g., git written in C, Mercurial written Python) and explained how there are no VCS solutions written in Ruby.  Why not?  There seems to be a general concensus that Ruby is not viable for large\-scale applications, just web frameworks.  AMP wants to prove that Ruby *is* viable as written in AMP's [manifesto](http://bitbucket.org/carbonica/amp/src/ef141288db29/MANIFESTO).  Here's what else it says:
 
@@ -28,16 +28,16 @@ Justin Love listed the major VCS out there (e.g., git written in C, Mercurial wr
 * Discover the limits of Ruby
 * Be an example of proper documentation
 
-#### What can AMP do?
+### What can AMP do?
 
 The John Locke version currently supports Mercurial and can access Mercurial repos like the hg command.  git, bazaar, svn, and cvs are hopeful supported VCS in AMP Redux.  Justin made an analogous comparison of AMP to ActiveRecord in Rails.  AMP wants to be like ActiveRecord.
 
-#### How can I use AMP?
+### How can I use AMP?
 
 * gem install amp
 * amp \-\-help
 
-#### How can you help out?
+### How can you help out?
 
 * needs documentation
 * website is in place, but doc out of date
