@@ -17,3 +17,7 @@ I worked with Paul yesterday to integrate a pdf generator in a Rails project.  T
 ## Lunch 'n' Learn - Git Session
 
 Craig presented his final session on Git, talking in detail about branching, merging, rebasing, and tagging.  It was nice to see in detail why some merges are fast forwards, recursive, and conflicted.  I've been merging lately, but will start rebasing for future commits.
+
+## Vim
+
+Ever since I saw Eric Smith's vim skills, I decided to pick up new vim commands and even install vimium and vimperator on Chrome and Firefox respectively.  These extensions allow you to use vim (like) commands on the browser without having to use the mouse.
