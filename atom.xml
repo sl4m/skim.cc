@@ -13,10 +13,10 @@ layout: nil
    <name>skim</name>
  </author>
  
- {% for post in site.posts %}
+ {% for post in site.posts limit:100 %}
  <entry>
    <title>{{ post.title }}</title>
-   {% for category in post.categories limit:100 %}
+   {% for category in post.categories %}
    <category term="{{category}}" />
    {% endfor %}
    <link href="http://skim.cc{{ post.url }}"/>
