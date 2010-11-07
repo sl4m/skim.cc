@@ -16,7 +16,7 @@ layout: nil
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   {% for category in post.categories %}
+   {% for category in post.categories limit:100 %}
    <category term="{{category}}" />
    {% endfor %}
    <link href="http://skim.cc{{ post.url }}"/>
