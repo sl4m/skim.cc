@@ -19,6 +19,7 @@ As it stands, all Ruby implementations adhere to RubySpec.  We now know how Ruby
 ### The Case of Other Languages
 
 [1]: http://en.wikipedia.org/wiki/Comparison_of_layout_engines_(ECMAScript)
+[2]: http://en.wikipedia.org/wiki/Sputnik_(JavaScript_conformance_test)
 
 Unfortunately, this symbiotic relationship does not appear in other languages such as JavaScript and Smalltalk (at least not yet).  JavaScript implementers took the specification from ECMA ([ECMA\-262, Edition 3](http://www.ecma-international.org/publications/standards/Ecma-262-arch.htm)), complied with [most of what was in the specification][1], and added their own language feature set on top.  Over time, after revisions and rewrites of their [JavaScript engines](http://en.wikipedia.org/wiki/JavaScript_engine), it became difficult from a developer standpoint to distinguish between what was originally part of ECMAScript and what was part of the implementation.  Perhaps that was never the goal of ECMAScript, but the language slowly became fragmented, if ever so slightly, and developers found it challenging to switch between platforms (in this case, browsers). 
 
@@ -28,7 +29,7 @@ While some will argue that both JavaScript and Smalltalk are backed by proprieta
 
 ### What Can Be Done (Or Is It Too Late)?
 
-Thanks to JavaScript developers like [Juriy Zaytsev](http://perfectionkills.com/), there is a [set of tests](http://kangax.github.com/cft/) that implementers can use to find common ground in the JavaScript language.  There is also the [Sputnik][http://en.wikipedia.org/wiki/Sputnik_(JavaScript_conformance_test)] test suite which determines how well an implementation adheres to ECMA\-262, 3rd Edition.  Of course, it is up to the implementers to consider trying to find common ground, but having a set of tests will reveal incompatibilities across JavaScript implementations.
+Thanks to JavaScript developers like [Juriy Zaytsev](http://perfectionkills.com/), there is a [set of tests](http://kangax.github.com/cft/) that implementers can use to find common ground in the JavaScript language.  There is also the [Sputnik][2] test suite which determines how well an implementation adheres to ECMA\-262, 3rd Edition.  Of course, it is up to the implementers to consider trying to find common ground, but having a set of tests will reveal incompatibilities across JavaScript implementations.
 
 For Smalltalk, there has been apparently [more converging than diverging in the past decade](http://www.threeriversinstitute.org/blog/?p=466), but we may never see the light at the end of the tunnel.  Now reaching its thirties, and with all implementations being backed by proprietary vendors, finding a common ground may prove to be difficult.  As of yet, there is no standard test suite that all Smalltalk implementers use and, as a result, communication through tests does not occur.  It may be too late because of the complexity involved with each implementation.  The only thing Smalltalk implementers have going for them is whether or not Seaside runs on their implementation, similar to how Ruby implementations use Rails ("The Rails Singularity") to test their own implementations.  
 
