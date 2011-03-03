@@ -3,7 +3,7 @@ body{
   font-family: "droid-sans-1","droid-sans-2", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.7em;
   margin: 0;
         -webkit-font-smoothing: antialiased;
@@ -64,7 +64,7 @@ h3{
   padding-top: 8px;
 }
 #header #misc{
-  font-size: 12px;
+  font-size: 14px;
 }
 #header #byline{
   color: #999;
