@@ -1,6 +1,6 @@
 body{
   background: #FAF9F8;
-  font-family: Helvetica, Arial, Sans-serif;
+  font-family: "droid-sans-mono-1","droid-sans-mono-2", sans-serif;
   font-size: 17px;
   line-height: 1.7em;
   margin: 0;
@@ -31,7 +31,7 @@ p code{
   color:#A5A5A5;
 }
 h1,h2,h3,h4{
-  font-family: "liberation-sans-1", "liberation-sans-2", Sans-serif;
+  font-family: "droid-sans-mono-1","droid-sans-mono-2", sans-serif;
   font-weight: normal;
   line-height: 1em;
 }
