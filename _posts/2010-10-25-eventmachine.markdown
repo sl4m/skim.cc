@@ -23,7 +23,7 @@ This is Ruby's evented I/O, similar to Node.js.  It's designed around the [React
 
 EM is an alias of EventMachine and can be used interchangeably.  There are other aliases in EventMachine.
 
-{% highlight ruby %}
+``` ruby
 class Echo
   def post_init
     puts "Hello"
@@ -33,12 +33,13 @@ class Echo
     p data
   end
 end
+
 EventMachine::run do
   EventMachine::start_server '127.0.0.1', 8081, Echo do |connection|
     # connection is EventMachine::Connection + Echo module
   end
 end
-{% endhighlight %}
+```
 
 The code above is an example of a simple server started in EventMachine.  Echo is a handler, a key component in EventMachine to handle particular network protocols.  This module magically mixes in with an instance of *EventMachine::Connection* and is returned in the start_server block.
 
