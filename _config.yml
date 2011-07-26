@@ -3,4 +3,4 @@ auto: true
 server: true
 pygments: true
 lsi: true
-markdown: rdiscount
+markdown: redcarpet
