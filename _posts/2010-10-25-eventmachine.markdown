@@ -33,6 +33,7 @@ class Echo
     p data
   end
 end
+
 EventMachine::run do
   EventMachine::start_server '127.0.0.1', 8081, Echo do |connection|
     # connection is EventMachine::Connection + Echo module
