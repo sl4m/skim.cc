@@ -33,14 +33,14 @@ I will into these in more depth tomorrow.
 
 I read an article on the [New York Times](http://nyti.ms/9qZDs7) referenced by [Mark Needham](http://www.markhneedham.com/blog/2010/09/12/learning-study-habits/) and [Michael Feathers](http://twitter.com/mfeathers/status/24215110861) that talks about the common wisdom about good study habits and how they contradict with new, simple techniques.  Here are some quotes that I find interesting:
 
-> Varying the type of material studied in a single sitting — alternating, for example, among vocabulary, reading and speaking in a new language — seems to leave a deeper impression on the brain than does concentrating on just one skill at a time. Musicians have known this for years, and their practice sessions often include a mix of scales, musical pieces and rhythmic work. Many athletes, too, routinely mix their workouts with strength, speed and skill drills. 
+> Varying the type of material studied in a single sitting - alternating, for example, among vocabulary, reading and speaking in a new language - seems to leave a deeper impression on the brain than does concentrating on just one skill at a time. Musicians have known this for years, and their practice sessions often include a mix of scales, musical pieces and rhythmic work. Many athletes, too, routinely mix their workouts with strength, speed and skill drills.
 
 I always thought my inability to study a single piece of material in a single sitting was a flaw in my study habits.  Like Mark, I can't sit down and study something for more than a couple of hours.  I think my mind wants to wander and study something else on my long list of interesting topics.
 
-> “The idea is that forgetting is the friend of learning,” said Dr. Kornell. “When you forget something, it allows you to relearn, and do so effectively, the next time you see it.” 
+> "The idea is that forgetting is the friend of learning," said Dr. Kornell. "When you forget something, it allows you to relearn, and do so effectively, the next time you see it."
 
-> It may be that the brain, when it revisits material at a later time, has to relearn some of what it has absorbed before adding new stuff — and that that process is itself self-reinforcing. 
+> It may be that the brain, when it revisits material at a later time, has to relearn some of what it has absorbed before adding new stuff - and that that process is itself self-reinforcing.
 
-> The harder it is to remember something, the harder it is to later forget. This effect, which researchers call “desirable difficulty,” is evident in daily life.
+> The harder it is to remember something, the harder it is to later forget. This effect, which researchers call "desirable difficulty," is evident in daily life.
 
 So when you forget something you've learned, you're essentially creating a "desirable difficulty."  When you relearn the material, it will be more difficult to forget.  I wonder how pomodoros and varying materials per session can help absorb more of the material.
