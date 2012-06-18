@@ -14,7 +14,7 @@ function integer minimax(node, depth)
     if node is a terminal node or depth == 0:
         return the heuristic value of node
     α = -∞
-    for child in node:                       # evaluation is identical for both players 
+    for child in node:                       # evaluation is identical for both players
         α = max(α, -minimax(child, depth-1))
     return α
 {% endhighlight %}

@@ -67,7 +67,7 @@ Initially when running the process, it was storing the documents at a slow pace 
 
 {% highlight text %}
 ruby-1.9.2-preview3 > coll.create_index("board")
- => "board_1" 
+ => "board_1"
 {% endhighlight %}
 
 Wow.  It significantly boosted the performance.  It was storing at a rate of about 2000+ documents/sec and it kept increasing.  Now since I created the index early on, when new documents are written to the database, it also indexes them at the same time.  I still think creating the index before will be faster than creating it after.  I needed the performance right away since writing 14 million documents can take some time.

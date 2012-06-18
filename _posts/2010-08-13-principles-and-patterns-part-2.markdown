@@ -1,6 +1,6 @@
 ---
 layout: post
-title: principles and patterns - part 2 
+title: principles and patterns - part 2
 date: 2010-08-13 16:00:00 -05:00
 categories:
   -- software craftsmanship
@@ -31,7 +31,7 @@ In Ruby, if you wanted to use a third party library, but need different behavior
 
 This is something I observed when reading about this principle.  Since Ruby supports duck typing, it's natural to substitute derived classes for their base classes.  There are two conditions that must be met for derived classes:
 
-* it must require no more 
+* it must require no more
 * it must promise no less
 
 Jim walked through an example of a square root method which requires a number greater or equal to zero and provides an accuracy of three decimal places.  The design by contract therefore requires a number greater or equal to zero and an accuracy of three decimal places.  All derived classes must meet this requirement, otherwise will violate the Liskov Substitution Principle.

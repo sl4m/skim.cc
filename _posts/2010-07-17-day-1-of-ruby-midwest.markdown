@@ -69,7 +69,7 @@ Lately I've been using JRuby for my Tic Tac Toe project, so this talk was useful
 
 There are two [Ruby Summer of Code](http://rubysoc.org/) projects that are contributing to JRuby.  One of them is support for C extensions in JRuby.  As of now, a good number of tests passing for [Thin](http://code.macournoyer.com/thin/).  The other project is for the Ruboto project which allows you to write Ruby code to create Android apps.  Soon enough, you'll be able to install the ruboto gem, generate the app, write Ruby code, and release it to the Android Market.
 
-Blog posts on jmap/jhat, VisualVM here: [[1](http://blog.headius.com/2010/07/browsing-memory-jruby-way.html)][[2](http://blog.headius.com/2010/07/finding-leaks-in-ruby-apps-with-eclipse.html)]
+Blog posts on jmap/jhat, VisualVM here: [1](http://blog.headius.com/2010/07/browsing-memory-jruby-way.html), [2](http://blog.headius.com/2010/07/finding-leaks-in-ruby-apps-with-eclipse.html)
 
 ### Unobtrusive CSS by John Hwang
 

@@ -6,7 +6,7 @@ categories:
   -- software craftsmanship
   -- javascript
   -- nodejs
-  -- webrick  
+  -- webrick
 ---
 
 I worked on my Node.js homework throughout last night for 8th Light University, so I apologize for writing this post now.  As you may have read last week, [Jim](http://twitter.com/jsuchy) is currently leading the 8LU session on Node.js.  He assigned us homework to create a Node.js server that will talk to services like Flickr, GitHub, Twitter, Facebook, or locally like the file system.  I decided to have my server talk to GitHub using their [API](http://develop.github.com/) and return back a list of repositories for a specific user.  There were some painful moments along the way, but I learned a lot from this assignment that will definitely help get through a roadblock I have now with WEBrick.  It's my lack of GET/POST knowledge and fully understanding how the server communicates with the client.  So fortunately, coming out of finishing the homework, I have better understanding and will be able to press forward with the WEBrick stories.
@@ -83,7 +83,7 @@ listRepos = function(req_data, res) {
         repoNames += '<strong><a href=' + repoObj["url"] + '>' + repoObj["name"] + '</a></strong><br />'
       }
 
-      res.write("<h1>" + user + ' has ' + repos["repositories"].length + 
+      res.write("<h1>" + user + ' has ' + repos["repositories"].length +
         " repositories:</h1><br /><hr>" + repoNames);
       res.end();
     });

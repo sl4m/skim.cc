@@ -18,7 +18,7 @@ end
 def read_cookie(name)
   @req.cookies.each { |c| return c.value if c.name == name }
   return false
-end 
+end
 {% endhighlight %}
 
 The invaluable WEBrick documentation at Eric Hodel's [website]() explained how cookies are retrieved and set:

@@ -53,7 +53,7 @@ function negamax(node, depth, α, β, color)
 [Negamax with Alpha-Beta pruning](http://en.wikipedia.org/wiki/Alpha-beta_pruning) (without the color argument)
 
 {% highlight text %}
-function alphabeta(node, depth, α, β)         
+function alphabeta(node, depth, α, β)
     (* β represents previous player best choice - doesn't want it if α would worsen it *)
     if  depth = 0 or node is a terminal node
         return the heuristic value of node

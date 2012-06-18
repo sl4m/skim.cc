@@ -1,6 +1,6 @@
 ---
 layout: post
-title: principles and patterns 
+title: principles and patterns
 date: 2010-08-10 22:00:00 -05:00
 categories:
   -- software craftsmanship

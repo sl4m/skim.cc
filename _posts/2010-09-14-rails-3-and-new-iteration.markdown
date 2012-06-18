@@ -28,7 +28,7 @@ With these estimates, it'll calculate the true estimate based on this formula:
 
 This will calculate the mean and it rounds to the nearest point.  For example, I said one particular story has an optimistic estimate of 2 points, realistic estimate of 3 points, and pessimistic estimate of 4 points.  The mean for these estimates come out to 3.  This is my estimate for that story.
 
-Hopefully, this will aid me in providing accurate estimates for the stories.  
+Hopefully, this will aid me in providing accurate estimates for the stories.
 
 ## What's New in the Next Iteration
 

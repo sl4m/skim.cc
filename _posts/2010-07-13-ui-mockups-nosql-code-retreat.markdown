@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ui mockups, nosql, code retreat 
+title: ui mockups, nosql, code retreat
 date: 2010-07-13 22:45:00 -05:00
 categories:
   -- software craftsmanship

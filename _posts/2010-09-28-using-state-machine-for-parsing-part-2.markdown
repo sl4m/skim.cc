@@ -69,7 +69,7 @@ require 'statemachine'
 
 
 module ParserStatemachine
-  def self.create_with(parser_context)    
+  def self.create_with(parser_context)
     return Statemachine.build do
       trans :code, :other, :code, :print
       trans :code, :pigpen, :code, :print

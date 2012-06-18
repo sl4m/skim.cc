@@ -29,9 +29,9 @@ Later in the day I paired with Micah and I showed him a potential solution to th
 {% highlight text %}
  O | O |   |
 ---+---+---+---
- O | O |   |    
+ O | O |   |
 ---+---+---+---
-   |   |   |   
+   |   |   |
 ---+---+---+---
    |   |   |
 {% endhighlight %}

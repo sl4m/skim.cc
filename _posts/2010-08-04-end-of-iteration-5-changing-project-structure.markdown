@@ -6,7 +6,7 @@ categories:
   -- software craftsmanship
   -- ruby
   -- stories
-  -- webrick  
+  -- webrick
 ---
 
 ## End of Iteration 5
@@ -22,7 +22,7 @@ I spent some time re-organizing the project structure.  I thought if I organize 
 This is what the new project structure looks like now:
 
 {% highlight text %}
-[master][~/local/git/tic_tac_toe_ruby] ls -l 
+[master][~/local/git/tic_tac_toe_ruby] ls -l
 total 24
 -rw-r--r--  1 skim  staff   758 Aug  4 19:12 README.md
 -rw-r--r--  1 skim  staff   239 Jul  8 12:06 Rakefile

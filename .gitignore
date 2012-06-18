@@ -2,3 +2,4 @@
 _site
 _templates
 *.swp
+.rvmrc

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: node.js, html5, websocket 
+title: node.js, html5, websocket
 date: 2010-08-22 22:00:00 -05:00
 categories:
   -- software craftsmanship

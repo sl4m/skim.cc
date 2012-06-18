@@ -13,7 +13,7 @@ The four criterias of a story are that it must:
 
 * deliver business value to the customer
 * be estimable and establish velocity
-* be testable*
+* be testable\*
 * "fit" in a half iteration's worth of time
 
 \*certain exceptions include, but not limited, to UI design related stories

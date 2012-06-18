@@ -1,6 +1,6 @@
 ---
 layout: post
-title: webrick - part 5 
+title: webrick - part 5
 date: 2010-08-10 20:00:00 -05:00
 categories:
   -- software craftsmanship

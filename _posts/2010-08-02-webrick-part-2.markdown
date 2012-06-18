@@ -6,7 +6,7 @@ categories:
   -- software craftsmanship
   -- ruby
   -- stories
-  -- webrick  
+  -- webrick
 ---
 
 Today I researched some more on WEBrick, learning about servlets, get/post, response/request, and ERB.  I was able to get a simple home page going for my Tic Tac Toe program.  Similar to the other UIs I've worked on, this WEBrick version will also make sure MongoDB is properly installed before enabling the 4x4 option.  The select inputs are retrieving their "options" from the config.rb I created for a recent story.  Here is what I have so far.

@@ -12,7 +12,7 @@ categories:
 
 From [The Craftsman 62, The Dark Path](http://thecleancoder.blogspot.com/2010/10/craftsman-62-dark-path.html):
 
-> "It's not so much choosing the right tests, Alphonse; it's about realizing that you are trying to solve the wrong test." 
+> "It's not so much choosing the right tests, Alphonse; it's about realizing that you are trying to solve the wrong test."
 
 If you recall from a previous blog post, I did not write tests for my Rails 3 version of Tic Tac Toe, so I'm re-writing it TDD style.  I should have known better to write tests.  Most of the code was a straight copy from my WEBrick version, so I thought it did not need to be tested, but there were some things that were modified to work in Rails that should have been tested.  For instance, I had ditched my own config class for Rails config and moved all UI methods into the controller.  Instead of moving the methods to the controller (it should not belong in there), I should have "moved" them to the model and test drive from there.
 

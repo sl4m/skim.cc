@@ -6,7 +6,7 @@ categories:
   -- software craftsmanship
   -- ruby
   -- stories
-  -- webrick  
+  -- webrick
 ---
 
 I worked on my last two stories for this iteration, polishing one, and creating tests/code for the other.  I'm a little worried my code is becoming more smelly as more features are being added to the project.  Currently, all three UIs (console, Limelight, WEBrick) are in the same project.  All specs live in the same spec folder, all console and shared classes live in the same lib folder, and Limelight is structured in its own unique way.  This next iteration I plan to have a better layout of my source and tests.

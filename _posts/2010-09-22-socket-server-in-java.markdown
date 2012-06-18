@@ -58,7 +58,7 @@ This is an interesting technique which I learned in the beginning of my apprenti
 
 ## Implementing the Socket Server with Micah
 
-I missed this story in my last iteration, but made it a priority to get it done first.  
+I missed this story in my last iteration, but made it a priority to get it done first.
 
 As I was reading the articles and the source code to understand how socket servers were created, Micah stopped by and paired with me briefly.  In what seemed like a matter of minutes, we created a simple socket server that displays a message with the current time.  I'm both sad and embarassed how easy this was.  Sad because I spent so much time reading material after material trying to understand how to implement a socket server.  I was also trying to play catch up and re-learn how to write in Java and what methods to use.  Embarrassed because the customer paid 6 points to have this story complete, where it should have really taken 1-2 points.  Micah mentioned that I'm probably reading too much.  This is true.  I will try to focus more on spiking and then test drive the stories.
 

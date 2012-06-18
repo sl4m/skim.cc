@@ -1,6 +1,6 @@
 ---
 layout: post
-title: a scenario where tests help facilitate compatibility and communication 
+title: a scenario where tests help facilitate compatibility and communication
 date: 2010-12-01 17:00:00 -05:00
 categories:
   -- apprenticeship

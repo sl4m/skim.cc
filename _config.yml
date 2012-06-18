@@ -1,6 +1,4 @@
 permalink:  /:year/:month/:day/:title
-auto: true
-server: true
+auto: false
+safe: false
 pygments: true
-lsi: true
-markdown: redcarpet

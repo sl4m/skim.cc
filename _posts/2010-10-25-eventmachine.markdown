@@ -28,7 +28,7 @@ class Echo
   def post_init
     puts "Hello"
   end
-    
+
   def receive_data(data)
     p data
   end

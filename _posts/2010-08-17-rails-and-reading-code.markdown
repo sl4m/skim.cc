@@ -1,6 +1,6 @@
 ---
 layout: post
-title: rails and reading code 
+title: rails and reading code
 date: 2010-08-17 23:00:00 -05:00
 categories:
   -- software craftsmanship

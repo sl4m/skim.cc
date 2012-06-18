@@ -10,7 +10,7 @@ categories:
 Here are my favorite talks for Day 2 of Ruby Midwest.  [Yehuda Katz's](http://twitter.com/wycats) keynote was similar to Chris Wanstrath's, touching on the importance of the Ruby community.  He called the Ruby community, "a blessing and a curse" because it :
 
 * enjoys experimenting with new projects
-* does not put up with crap 
+* does not put up with crap
 * expects basic commands to run without reading the manual
 * expects a high level of UX
 * expects support for all platforms, unique environments (e.g., Windows, JRuby, Passenger, rvm, Unicorn, gemcutter)

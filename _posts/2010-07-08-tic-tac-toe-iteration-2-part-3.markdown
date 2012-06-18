@@ -35,7 +35,7 @@ This was my very first [retrospective](http://en.wikipedia.org/wiki/Retrospectiv
 * \+ tackled small stories first
 * \+ stories were completed
 * \+ some stories from backlog were completed
-* \- working 24/7 
+* \- working 24/7
 * \- weekend broke productivity flow
 * \- mismatch expectation for Limelight UI story
 * \- lost in refactoring tangent

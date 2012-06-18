@@ -14,7 +14,7 @@ Yesterday, Matt and I continued working on the Rails project.  We actually finis
 
 I'm learning so much on Rails, I have an itch to continue to learn more.  I'm really glad to have learned how to use Limelight because it shares similar conventions with Rails and I'm glad to have learned how to work with WEBrick because it's as low level as you can get when developing the web - talking directly to the web server and have it serve your pages.
 
-Today, we will work on another task similar to the last one.  I look forward to the challenges and the learning.  
+Today, we will work on another task similar to the last one.  I look forward to the challenges and the learning.
 
 ## Reading
 

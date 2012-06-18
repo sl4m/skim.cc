@@ -31,7 +31,7 @@ Be sure to have the latest brew formulas or you might get an older version of Mo
 {% highlight text %}
 [/usr/local] git init
 Initialized empty Git repository in /usr/local/.git/
-[master][/usr/local] git remote add origin http://github.com/mxcl/homebrew.git   
+[master][/usr/local] git remote add origin http://github.com/mxcl/homebrew.git
 [master][/usr/local] git pull origin master
 From http://github.com/mxcl/homebrew
  * branch            master     -> FETCH_HEAD
@@ -49,7 +49,7 @@ Create a folder and kickoff an instance of MongoDB:
 [~] mkdir -p /data/db
 [~] mongod
 mongod --help for help and startup options
-Thu Jul 15 00:31:03 Mongo DB : starting : pid = 82628 port = 27017 dbpath = /data/db/ master = 0 slave = 0  64-bit 
+Thu Jul 15 00:31:03 Mongo DB : starting : pid = 82628 port = 27017 dbpath = /data/db/ master = 0 slave = 0  64-bit
 Thu Jul 15 00:31:03 db version v1.4.4, pdfile version 4.5
 Thu Jul 15 00:31:03 git version: 9dcac11bd72c7cb34ca278313f033efcdd4908eb
 Thu Jul 15 00:31:03 sys info: Darwin erh2.10gen.cc 9.6.0 Darwin Kernel Version 9.6.0: Mon Nov 24 17:37:00 PST 2008; root:xnu-1228.9.59~1/RELEASE_I386 i386 BOOST_LIB_VERSION=1_37

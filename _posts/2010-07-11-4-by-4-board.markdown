@@ -21,25 +21,25 @@ Choose player type for 'X' (enter 'h' for human or 'e' for easy cpu, 'm' for  me
 Choose board type (enter '3' for 3x3 or '4' for 4x4) 4
 
 
-   |   |   |   
+   |   |   |
 ---+---+---+---
-   |   |   |   
+   |   |   |
 ---+---+---+---
-   |   |   |   
+   |   |   |
 ---+---+---+---
-   |   |   |   
+   |   |   |
 
 
 Enter your move, player 'O': 0
 
 
- O |   |   |   
+ O |   |   |
 ---+---+---+---
-   |   |   |   
+   |   |   |
 ---+---+---+---
-   |   |   |   
+   |   |   |
 ---+---+---+---
-   |   |   |   
+   |   |   |
 
 Player 'X' is making a move
 {% endhighlight %}

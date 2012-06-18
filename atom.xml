@@ -3,7 +3,7 @@ layout: nil
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- 
+
  <title>skim</title>
  <link href="http://skim.cc/atom.xml" rel="self"/>
  <link href="http://skim.cc/"/>
@@ -12,7 +12,7 @@ layout: nil
  <author>
    <name>skim</name>
  </author>
- 
+
  {% for post in site.posts limit:100 %}
  <entry>
    <title>{{ post.title }}</title>
@@ -25,5 +25,5 @@ layout: nil
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
- 
+
 </feed>
