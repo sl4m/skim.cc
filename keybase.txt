@@ -1,0 +1,83 @@
+==================================================================
+https://keybase.io/skim
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://skim.cc
+  * I am skim (https://keybase.io/skim) on keybase.
+  * I have a public key with fingerprint 1969 1388 9423 B407 6EFD  ED76 731A 9DF5 5732 A0C8
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.2"
+        },
+        "key": {
+            "fingerprint": "196913889423b4076efded76731a9df55732a0c8",
+            "host": "keybase.io",
+            "key_id": "731A9DF55732A0C8",
+            "uid": "3ed938fafd78cc2014530e74667e7d00",
+            "username": "skim"
+        },
+        "merkle_root": {
+            "ctime": 1411639579,
+            "hash": "a455041a28c3a4e3d71a69c967c8b02ecf5b3eec9947b3a048108b9333313074533945171d7b4fe38006e4b5d49b2294bb2cde7cda708836e7f87525c19a31c1",
+            "seqno": 61240
+        },
+        "service": {
+            "hostname": "skim.cc",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1411640178,
+    "expire_in": 157680000,
+    "prev": "76d0da5dd2cac13d2fae6c3029ace3335f7229b268c08744b3370cc3f1288a87",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+Comment: GPGTools - https://gpgtools.org
+
+owFVkn9QFVUUxwHJSVQkpHFAFNw3JAi9uXfv7t5djJIQs6FIU1NHmOfu3ftgfby3
+j/eeiAGWmg4iIw5QZhNYBv4I0UQckUxnFHoYTaaIZj8YswlTSRx/ADqOtMvQZPev
+++Nzzvl+z7nbJ44JCAl0Fu+Fncp4HNh5QwlYbLlVUsQourqWSS5iSJ5GXT5z55Kd
+lElmHHStInupVdNjXbpKrau8saNMElNAPV5NdxkUsGIry5QkmbgZbNdcOdTj9mhm
+LgZKggSRKEocixQOYIHaVapiASMoS6qd5zFiZUBEI2Wu7vX9ryozktOmqcatwadK
+c+eN8KkgzeRXjzwgqkpItMt2FYuEsAByPAIUc4KAKVYBMEEv9Yxa8jo0p6nVST2O
+PGrz6PqIYeLTzGfIQSggiceSoUb25hoBMsfzgIMyKxIkcxSpGMqCRCQBE1EBLCV2
+XkGUEknisIJkwIkQiIqEjAURwIYYJHE8xFDFCmenSARAoJzCq5yksKzEKQpLVIqJ
+KmMgikig2C5inuUJlGQECTTke2m+S2eSBchyoMQ8ego0Qk3ZZseeMmYlxMDdHt2n
+Ez3PuMz1+dzJpl3fWrcJraGKbTTcpmhfuFRjVE/PEhro063gAMRiEkML3ZqH2jST
+4LFgWADArEMLzMEIKlBlXlVZIhOIVNYuU4EgwEoyoUYXeDs2fCqsIBIgYo5TEMKA
+EGSHrCjKIv7PoFHJJ+eYXrQcl+xb7aFMyZag6OCAwJCAsc8EmZ81IGRc2L8/eHfT
+pCdoRmxm9HPZ1b8lFnaXl84brEyvnNMRWTu87eXWTGfWfryhJjVv/TrLyXe2hp7Z
+KcxCf0SE3JqZsbRhx+JDvVltmZOyywa/nj+ZzHL8VTWmftZ7/sAZ9Sfyyxr3DYQ6
+z2RnNv1yKqdPSu62zd4UaTk9fEA68EH//cd9TfwO+rDV+0nxPXjn+Z2/Pqx434HC
+ZuKEsy8Vh6nL2VdCf95u6R4fN1RkaTzy9sC96k1k6PaJsqyxMHxj1l1f6fxFtVuW
+HHQ8Kt2w//aRZZeOBTli7rYrJ0B4F3OykN+7Zzj1ev8lf/qDx+XhG/PP7Pd7Tr92
+zT94vCL+ysOuTl/Zk6Gac8vvViesT6xbN+3TlqJ+f/Phb9KOxx0fqr+/62Dsj/FV
+udczxkVH9g1O6Ompa1ySEGGNeNDG//76KVvvoRr/3COZM9WV/pyioLafLi9MWfZG
+ryP+KNc4tXhO7PfT7zcsbW59oW7w2e+qb2z+uL3rWNqCNyO+vFaRHXo1siUlOO5y
+irA77WzLhardS9w3Exc53oqpru1cuebzV6dc3JOIh76Ksl6YsiKm9ZzwYYv+Im7q
+fCSFd4jBAQPfTrzj9Ddog3Ef/bCrLmPq1AVwHwyu4a/MTh9Xrky+6m6PalhYV/n3
+zaGLA0cPbr7VcX6CPXtbabLz8F7arMdaUnqmT/A1WyyXKqedr3p3X39rd5R39oo/
+V3128R8=
+=vlte
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/skim
+
+==================================================================
