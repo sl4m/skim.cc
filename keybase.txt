@@ -4,75 +4,60 @@ https://keybase.io/skim
 
 I hereby claim:
 
-  * I am an admin of http://skim.cc
+  * I am an admin of https://skim.cc
   * I am skim (https://keybase.io/skim) on keybase.
-  * I have a public key with fingerprint 1969 1388 9423 B407 6EFD  ED76 731A 9DF5 5732 A0C8
+  * I have a public key with fingerprint EA0E 259C B4B4 A1F4 A959  E839 2574 4DCC 3A0C EF66
 
-To claim this, I am signing this object:
+To do so, I am signing this object:
 
 {
     "body": {
         "client": {
             "name": "keybase.io node.js client",
-            "version": "0.7.2"
+            "version": "0.8.8"
         },
         "key": {
-            "fingerprint": "196913889423b4076efded76731a9df55732a0c8",
+            "fingerprint": "ea0e259cb4b4a1f4a959e83925744dcc3a0cef66",
             "host": "keybase.io",
-            "key_id": "731A9DF55732A0C8",
+            "key_id": "25744dcc3a0cef66",
             "uid": "3ed938fafd78cc2014530e74667e7d00",
             "username": "skim"
         },
-        "merkle_root": {
-            "ctime": 1411639579,
-            "hash": "a455041a28c3a4e3d71a69c967c8b02ecf5b3eec9947b3a048108b9333313074533945171d7b4fe38006e4b5d49b2294bb2cde7cda708836e7f87525c19a31c1",
-            "seqno": 61240
-        },
         "service": {
             "hostname": "skim.cc",
-            "protocol": "http:"
+            "protocol": "https:"
         },
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1411640178,
+    "ctime": 1436185618,
     "expire_in": 157680000,
-    "prev": "76d0da5dd2cac13d2fae6c3029ace3335f7229b268c08744b3370cc3f1288a87",
-    "seqno": 8,
+    "prev": "c6b688d10c0deda4c167376df3beffa700ae03bd2b2ca52f7ce048ffad8fa47b",
+    "seqno": 18,
     "tag": "signature"
 }
 
-with the aforementioned key, yielding the PGP signature:
+which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
-Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
 Comment: GPGTools - https://gpgtools.org
 
-owFVkn9QFVUUxwHJSVQkpHFAFNw3JAi9uXfv7t5djJIQs6FIU1NHmOfu3ftgfby3
-j/eeiAGWmg4iIw5QZhNYBv4I0UQckUxnFHoYTaaIZj8YswlTSRx/ADqOtMvQZPev
-++Nzzvl+z7nbJ44JCAl0Fu+Fncp4HNh5QwlYbLlVUsQourqWSS5iSJ5GXT5z55Kd
-lElmHHStInupVdNjXbpKrau8saNMElNAPV5NdxkUsGIry5QkmbgZbNdcOdTj9mhm
-LgZKggSRKEocixQOYIHaVapiASMoS6qd5zFiZUBEI2Wu7vX9ryozktOmqcatwadK
-c+eN8KkgzeRXjzwgqkpItMt2FYuEsAByPAIUc4KAKVYBMEEv9Yxa8jo0p6nVST2O
-PGrz6PqIYeLTzGfIQSggiceSoUb25hoBMsfzgIMyKxIkcxSpGMqCRCQBE1EBLCV2
-XkGUEknisIJkwIkQiIqEjAURwIYYJHE8xFDFCmenSARAoJzCq5yksKzEKQpLVIqJ
-KmMgikig2C5inuUJlGQECTTke2m+S2eSBchyoMQ8ego0Qk3ZZseeMmYlxMDdHt2n
-Ez3PuMz1+dzJpl3fWrcJraGKbTTcpmhfuFRjVE/PEhro063gAMRiEkML3ZqH2jST
-4LFgWADArEMLzMEIKlBlXlVZIhOIVNYuU4EgwEoyoUYXeDs2fCqsIBIgYo5TEMKA
-EGSHrCjKIv7PoFHJJ+eYXrQcl+xb7aFMyZag6OCAwJCAsc8EmZ81IGRc2L8/eHfT
-pCdoRmxm9HPZ1b8lFnaXl84brEyvnNMRWTu87eXWTGfWfryhJjVv/TrLyXe2hp7Z
-KcxCf0SE3JqZsbRhx+JDvVltmZOyywa/nj+ZzHL8VTWmftZ7/sAZ9Sfyyxr3DYQ6
-z2RnNv1yKqdPSu62zd4UaTk9fEA68EH//cd9TfwO+rDV+0nxPXjn+Z2/Pqx434HC
-ZuKEsy8Vh6nL2VdCf95u6R4fN1RkaTzy9sC96k1k6PaJsqyxMHxj1l1f6fxFtVuW
-HHQ8Kt2w//aRZZeOBTli7rYrJ0B4F3OykN+7Zzj1ev8lf/qDx+XhG/PP7Pd7Tr92
-zT94vCL+ysOuTl/Zk6Gac8vvViesT6xbN+3TlqJ+f/Phb9KOxx0fqr+/62Dsj/FV
-udczxkVH9g1O6Ompa1ySEGGNeNDG//76KVvvoRr/3COZM9WV/pyioLafLi9MWfZG
-ryP+KNc4tXhO7PfT7zcsbW59oW7w2e+qb2z+uL3rWNqCNyO+vFaRHXo1siUlOO5y
-irA77WzLhardS9w3Exc53oqpru1cuebzV6dc3JOIh76Ksl6YsiKm9ZzwYYv+Im7q
-fCSFd4jBAQPfTrzj9Ddog3Ef/bCrLmPq1AVwHwyu4a/MTh9Xrky+6m6PalhYV/n3
-zaGLA0cPbr7VcX6CPXtbabLz8F7arMdaUnqmT/A1WyyXKqedr3p3X39rd5R39oo/
-V3128R8=
-=vlte
+owFtUltIFFEY3m3dtMXuKQUiy4Bg2zrM7FxXoiLfIhIiodJaZ86c2Z3VnVl3x9VF
+bKGQvJRXJIsyioQegkAyox7aipXELLwg2bZhD2JI9aAPXdRqjhgYdODA4f+/y/+d
+c9o3W0w2s2Nf+mV3dLbHPPLMIZpKruk76jBRk6JYYR0GKhWo6uikCgGIFWIVMCoK
+YYgrml3VJIj7w/Y1jBOLwFBY0VQDReA8zmP1TgRHZFlRvTAUDClIC4MCAV2MG4i0
+SAukTAtuxg15yu1iOJqWAKAEAkCZZQ1JnxbW/3HFVjU9imRU/4OvXm1QUHJTvCzI
+EscD4CJImqEIyNEsy0FOIggEDMPQWqRwhRJAsxqViAIgmhfZruviABiUYEjTNaBV
+GkWfrgfDhYikR4MIVQNFzxrfIyqqZORdfyGkgQS6ggRJmmJJnjG2E4O1QSUEPQpC
+MBzLE8ZCPjBiSAJWZHleIglASFASaECyHMWxkkyJUJYFjiAESFCi5BJdQGBcMgcg
+QfNGRzKS05yIoURVqmZoG1a64EVhFK8q6NUhiNU3mXPSTGabaaN1A3pyk23Ttr8f
+Ib82/XfM37h16NDXzHjLBLmivEo9Hha8V5wOGOtLZJfbc2OdA9aJd0xj78zt2dLv
+9b5kKuPl3XMHl9iL5NbP/RGr/2mVeKLjrWUunnivtQeU422nyYmddUWzj3rz0i6R
+y44fS2ZfybfR4r2dLdn3Z7D4/qlxi7UxO3Dnib15+iqenzM0PvZmLrk7Y3HLi4Xk
+mfLq7be6Og50F59vet7afWPxw8gMZSmTE8uD09crJ5f7MiVbomeuTUxmBQY9fqro
+Zt5U0XBBR22sIGhLroyd/JX1+lN/zZGBMr2/eT5+TB0tb53f1bWnbepspOHC0cOp
+j6m+U5OlD8YXft7LjTR8wR/+AQ==
+=YLvF
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
